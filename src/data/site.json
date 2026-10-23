@@ -13,7 +13,6 @@
   "phone": "+82-2-6490-2145",
   "phoneLabel": "Professor’s office",
   "address": "Room 305, Natural Science Building, 163 Seoulsiripdae-ro, Dongdaemun-gu, Seoul, Republic of Korea",
-  "census": "https://mixedcas-lab.github.io/adc-census/",
   "source": "https://mcas.uos.ac.kr",
   "snapshotDate": "2026-10-23",
   "heroKo": "아날로그와 디지털을 잇는 회로를 설계합니다.",
@@ -33,23 +32,5 @@
     "album-17"
   ],
   "heroLead": "We design data converters and the mixed-signal integrated circuits around them, from ultra-high-speed converters for communication links to low-power converters for biomedical sensing.",
-  "recruitingEn": "We are looking for graduate students interested in mixed-signal and data-converter circuit design. Please email Prof. Min-Jae Seo to talk about research topics and admission.",
-  "censusSites": [
-    {
-      "name": "ADC Census",
-      "url": "https://mixedcas-lab.github.io/adc-census/"
-    },
-    {
-      "name": "PLL Census",
-      "url": "https://mixedcas-lab.github.io/pll-census/"
-    },
-    {
-      "name": "LDO Census",
-      "url": "https://mixedcas-lab.github.io/ldo-census/"
-    },
-    {
-      "name": "PMIC Census",
-      "url": "https://mixedcas-lab.github.io/pmic-census/"
-    }
-  ]
+  "recruitingEn": "We are looking for graduate students interested in mixed-signal and data-converter circuit design. Please email Prof. Min-Jae Seo to talk about research topics and admission."
 }

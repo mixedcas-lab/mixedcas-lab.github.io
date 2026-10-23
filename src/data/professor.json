@@ -20,7 +20,7 @@
     },
     {
       "period": "2007.03 — 2013.02",
-      "title": "B.S. in Electronic Engineering",
+      "title": "B.S. in Electrical Engineering and Computer Science",
       "institution": "Hanyang University",
       "note": "Summa cum laude"
     }
@@ -49,6 +49,31 @@
   ],
   "awards": [
     {
+      "year": "2026",
+      "title": "IEIE-IEEE Joint Award for Young Scientist and Engineer",
+      "detail": "IEIE and IEEE"
+    },
+    {
+      "year": "2026",
+      "title": "Special Merit Award for University Development",
+      "detail": "University of Seoul"
+    },
+    {
+      "year": "2025",
+      "title": "Meritorious Service Award",
+      "detail": "The Institute of Electronics and Information Engineers (IEIE)"
+    },
+    {
+      "year": "2023",
+      "title": "Best Lecturer Award",
+      "detail": "IC Design Education Center (IDEC)"
+    },
+    {
+      "year": "2022",
+      "title": "Excellent Young Researcher in Integrated Circuit Design",
+      "detail": "IC Design Education Center (IDEC)"
+    },
+    {
       "year": "2019",
       "title": "Kim Choong-Ki Award",
       "detail": "EE Top Research Achievement Award, KAIST"
@@ -60,6 +85,12 @@
     }
   ],
   "activities": [
+    "TPC Chair, 26th IEIE RF/Analog Circuit Workshop (2026)",
+    "Steering Committee Chair, IEIE Workshop on High-Speed Interconnect Technology (2026)",
+    "Organizing Committee, IEIE Summer Conference (2025, 2026)",
+    "TPC Member, ICEIC 2026",
+    "TPC Co-chair & Secretary, ICCE-Asia 2025",
+    "Finance Chair, IEIE RF/Analog Circuit Workshop (2023, 2024)",
     "IEEE A-SSCC TPC Member",
     "IEEE SSCL Guest Editor",
     "Member, Institute of Electrical and Electronics Engineers (IEEE)",

@@ -9,5 +9,5 @@ import site from '../data/site.json';
   <section class="section"><div class="container"><div class="research-overview"><h2>Overview.</h2><p>{site.description}</p></div>
   {research.map((r,i)=><article class="research-block" id={r.id}><span class="large-no">0{i+1}</span><div><span class="eyebrow">{r.tag}</span><h2>{r.title}</h2></div><div><p>{r.description}</p><small>{r.originalTitle}</small></div></article>)}
   <div class="subsection" id="chips"><span class="eyebrow">Chip micrographs</span><h2 style="margin-top:16px">Chips.</h2><p>Chips designed and measured at MCAS Lab.</p><figure class="full-chip"><a href="../images/chips.png" target="_blank" rel="noopener" aria-label="Open full chip photograph"><img src="../images/chips.png" width="1280" height="545" alt="Chip photograph collection: touch pen, 3D touch, sensor, biomedical and 5G wireless communication circuits" loading="lazy" /></a><figcaption>Select the image to view it at full size.</figcaption></figure></div>
-  <div class="button-row"><a class="button" href="../publications/">Publications →</a><a class="button button-outline" href="../#census">Census data →</a></div></div></section>
+  <div class="button-row"><a class="button" href="../publications/">Publications →</a><a class="button button-outline" href="../people/">People →</a></div></div></section>
 </Layout>

@@ -21,6 +21,11 @@ const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') 
     <meta property="og:type" content="website" />
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/png" href={`${root}${site.logos.light}`} />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" />
     <link rel="stylesheet" href={`${root}styles.css`} />
     <title>{title ? `${title} — MCAS Lab` : 'MCAS Lab — University of Seoul'}</title>
     <script is:inline src={`${root}site.js`} defer></script>
@@ -43,7 +48,7 @@ const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') 
       <div class="container footer-top">
         <div><a class="footer-logo" href={root} aria-label="MCAS Lab home"><img src={`${root}${site.logos.dark}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" loading="lazy" /></a><p>{site.fullName}</p></div>
         <div><span class="eyebrow">University of Seoul</span><p>School of Advanced Fusion Studies<br/>Natural Science Building · Room 305</p><a href={`mailto:${site.email}`}>{site.email} ↗</a></div>
-        <div class="footer-links"><a href={`${root}teaching/`}>Teaching</a><a href={`${root}publications/#patents`}>Patents</a><a href={`${root}#census`}>Census data</a><a href={`${root}contact/`}>Contact</a></div>
+        <div class="footer-links"><a href={`${root}teaching/`}>Teaching</a><a href={`${root}publications/#patents`}>Patents</a><a href={`${root}contact/`}>Contact</a></div>
       </div>
       <div class="container footer-bottom"><span>© {new Date().getFullYear()} MCAS Lab. University of Seoul.</span><span>University of Seoul · School of Advanced Fusion Studies</span><a href="#main">Back to top ↑</a></div>
     </footer>
