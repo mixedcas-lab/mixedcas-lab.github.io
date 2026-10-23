@@ -88,5 +88,10 @@
     "role": "Graduate researcher",
     "image": "images/member-10.jpg",
     "research": "Data converters for wireless communication"
+  },
+  {
+    "name": "Bubin Kim",
+    "role": "Part-time M.S. student",
+    "affiliation": "ABOV Semiconductor"
   }
 ]
