@@ -5,11 +5,6 @@
     "process": "28-nm CMOS"
   },
   {
-    "image": "images/chip-sar-1p6gs.jpg",
-    "title": "7-bit 1.6-GS/s SAR ADC",
-    "process": "28-nm CMOS"
-  },
-  {
     "image": "images/chip-two-step-flash.jpg",
     "title": "7-bit 3-GS/s two-step flash ADC with sample-and-hold sharing",
     "process": "40-nm CMOS · JSSC 2022"
