@@ -3,8 +3,8 @@
 // "wide" is the full-width desktop banner; "compact" is the stacked mobile version.
 const { layout = 'wide' } = Astro.props;
 const L = layout === 'wide'
-  ? { W: 1200, H: 290, mid: 150, amp: 74, period: 160, ts: 20, labelY: 28, inX: [0, 392], adc: [416, 540], bits: [566, 698], dac: [724, 848], outX: [872, 1200], blockH: 124, clkY: 262, bitW: 11, bitH: 16, bitDx: 16, lane: 24 }
-  : { W: 640, H: 300, mid: 150, amp: 52, period: 120, ts: 15, labelY: 40, inX: [16, 172], adc: [190, 290], bits: [306, 362], dac: [378, 478], outX: [494, 624], blockH: 110, clkY: 270, bitW: 9, bitH: 13, bitDx: 14, lane: 20 };
+  ? { W: 1200, H: 290, mid: 150, amp: 74, period: 160, ts: 20, labelY: 28, inX: [0, 392], adc: [416, 540], bits: [566, 698], dac: [724, 848], outX: [872, 1200], blockH: 88, clkY: 262, bitW: 11, bitH: 16, bitDx: 16, lane: 24 }
+  : { W: 640, H: 300, mid: 150, amp: 52, period: 120, ts: 15, labelY: 40, inX: [16, 172], adc: [190, 290], bits: [306, 362], dac: [378, 478], outX: [494, 624], blockH: 74, clkY: 270, bitW: 9, bitH: 13, bitDx: 14, lane: 20 };
 const { W, H, mid, amp, period, ts } = L;
 const y = (x: number) => mid - amp * Math.sin((2 * Math.PI * x) / period);
 const sine = (x0: number, x1: number) => {
