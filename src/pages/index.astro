@@ -13,14 +13,16 @@ const moments=site.homeAlbumIds.map(id=>gallery.find(g=>g.id===id)).filter(Boole
 ---
 <Layout dark>
   <section class="hero">
-    <div class="container hero-main">
+    <div class="container hero-main hero-split">
       <div class="hero-copy">
         <a class="hero-uos" href="https://www.uos.ac.kr" target="_blank" rel="noopener"><img src="./images/brand/uos-white.png" alt="University of Seoul" width="900" height="97" /></a>
         <h1>{site.heroLine1}<br/><em>{site.heroAccent}</em><br/>{site.heroLine3}</h1>
+      </div>
+      <div class="hero-side">
         <p class="hero-description">{site.heroLead}</p>
         <div class="button-row"><a class="button" href="./research/">Research <span aria-hidden="true">→</span></a><a class="button button-outline" href="./publications/">Publications <span aria-hidden="true">→</span></a></div>
       </div>
-      <div class="signal-stage"><SignalChain /></div>
+      <div class="signal-stage"><SignalChain layout="wide" /><SignalChain layout="compact" /></div>
     </div>
     <div class="container hero-bottom"><span>Mixed-Signal Circuits and Systems Laboratory</span><span><span class="hide-mobile">Seoul, Korea</span><a href="#research">Research ↓</a></span></div>
   </section>

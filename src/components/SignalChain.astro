@@ -1,90 +1,102 @@
 ---
 // Animated mixed-signal chain: analog sine -> ADC -> digital codes -> DAC -> reconstructed sine.
-const mid = 200, amp = 52, period = 120, ts = 15;
+// "wide" is the full-width desktop banner; "compact" is the stacked mobile version.
+const { layout = 'wide' } = Astro.props;
+const L = layout === 'wide'
+  ? { W: 1200, H: 290, mid: 150, amp: 74, period: 160, ts: 20, labelY: 28, inX: [0, 392], adc: [416, 540], bits: [566, 698], dac: [724, 848], outX: [872, 1200], blockH: 124, clkY: 262, bitW: 11, bitH: 16, bitDx: 16, lane: 24 }
+  : { W: 640, H: 300, mid: 150, amp: 52, period: 120, ts: 15, labelY: 40, inX: [16, 172], adc: [190, 290], bits: [306, 362], dac: [378, 478], outX: [494, 624], blockH: 110, clkY: 270, bitW: 9, bitH: 13, bitDx: 14, lane: 20 };
+const { W, H, mid, amp, period, ts } = L;
+const y = (x: number) => mid - amp * Math.sin((2 * Math.PI * x) / period);
 const sine = (x0: number, x1: number) => {
   const pts: string[] = [];
-  for (let x = x0; x <= x1; x += 2) pts.push(`${x},${(mid - amp * Math.sin((2 * Math.PI * x) / period)).toFixed(1)}`);
+  for (let x = x0; x <= x1; x += 2) pts.push(`${x},${y(x).toFixed(1)}`);
   return 'M' + pts.join(' L');
 };
 const stairs = (x0: number, x1: number) => {
   let d = '';
-  for (let x = x0; x < x1; x += ts) {
-    const y = (mid - amp * Math.sin((2 * Math.PI * x) / period)).toFixed(1);
-    d += (d ? ` L${x},${y}` : `M${x},${y}`) + ` L${x + ts},${y}`;
-  }
+  for (let x = x0; x < x1; x += ts) d += `${d ? ' L' : 'M'}${x},${y(x).toFixed(1)} L${x + ts},${y(x).toFixed(1)}`;
   return d;
 };
-const dots = (x0: number, x1: number) => {
-  const out: [number, number][] = [];
-  for (let x = x0; x <= x1; x += ts) out.push([x, mid - amp * Math.sin((2 * Math.PI * x) / period)]);
+const samples = (x0: number, x1: number) => {
+  const out: number[] = [];
+  for (let x = x0; x <= x1; x += ts) out.push(x);
   return out;
 };
 const clock = (x0: number, x1: number) => {
-  let d = `M${x0},352`;
-  for (let x = x0; x < x1; x += ts) d += ` L${x},340 L${x + ts / 2},340 L${x + ts / 2},352 L${x + ts},352`;
+  let d = `M${x0},${L.clkY + 10}`;
+  for (let x = x0; x < x1; x += ts) d += ` L${x},${L.clkY} L${x + ts / 2},${L.clkY} L${x + ts / 2},${L.clkY + 10} L${x + ts},${L.clkY + 10}`;
   return d;
 };
-// 4-bit codes of the sampled sine, one column per sample
-const codes = Array.from({ length: 16 }, (_, i) => Math.round(7.5 + 7.5 * Math.sin((2 * Math.PI * i * ts) / period)));
-const bits = codes.flatMap((c, i) => [3, 2, 1, 0].map(b => ({ x: i * 14, y: 158 + (3 - b) * 22, on: (c >> b) & 1 })));
+// Converter symbol: a box with a pointed output side, pointing along the signal flow.
+const pent = ([x0, x1]: number[]) => {
+  const t = 22, y0 = mid - L.blockH / 2, y1 = mid + L.blockH / 2;
+  return `M${x0},${y0} L${x1 - t},${y0} L${x1},${mid} L${x1 - t},${y1} L${x0},${y1} Z`;
+};
+const period4 = Math.round(period / ts); // samples per sine period
+const cols = period4 * 2;
+const codes = Array.from({ length: cols }, (_, i) => Math.round(7.5 + 7.5 * Math.sin((2 * Math.PI * i) / period4)));
+const unit = cols * L.bitDx;
+const bitsTop = mid - (L.lane * 3 + L.bitH) / 2;
+const bits = codes.flatMap((c, i) => [3, 2, 1, 0].map(b => ({ x: i * L.bitDx, y: bitsTop + (3 - b) * L.lane, on: (c >> b) & 1 })));
+const id = `sc-${layout}`;
+const [bx0, bx1] = L.bits;
 ---
-<svg class="signal-chain" viewBox="0 0 640 400" role="img" aria-label="An analog sine wave is sampled by an ADC, carried as digital codes, and reconstructed by a DAC">
+<svg class={`signal-chain signal-${layout}`} viewBox={`0 0 ${W} ${H}`} style={`--p:${period}px;--u:${unit}px;--c:${ts}px`} role="img" aria-label="An analog sine wave is sampled by an ADC, carried as digital codes, and reconstructed by a DAC">
   <defs>
-    <clipPath id="sc-in"><rect x="24" y="100" width="150" height="200" /></clipPath>
-    <clipPath id="sc-bits"><rect x="288" y="140" width="66" height="110" /></clipPath>
-    <clipPath id="sc-out"><rect x="466" y="100" width="150" height="200" /></clipPath>
-    <clipPath id="sc-clk"><rect x="196" y="330" width="250" height="30" /></clipPath>
-    <linearGradient id="sc-fade-l" x1="0" x2="1"><stop offset="0" stop-color="#09182c" /><stop offset="1" stop-color="#09182c" stop-opacity="0" /></linearGradient>
-    <linearGradient id="sc-fade-r" x1="1" x2="0"><stop offset="0" stop-color="#09182c" /><stop offset="1" stop-color="#09182c" stop-opacity="0" /></linearGradient>
+    <clipPath id={`${id}-in`}><rect x={L.inX[0]} y="0" width={L.inX[1] - L.inX[0]} height={H} /></clipPath>
+    <clipPath id={`${id}-bits`}><rect x={bx0} y="0" width={bx1 - bx0} height={H} /></clipPath>
+    <clipPath id={`${id}-out`}><rect x={L.outX[0]} y="0" width={L.outX[1] - L.outX[0]} height={H} /></clipPath>
+    <clipPath id={`${id}-clk`}><rect x={L.adc[0]} y={L.clkY - 4} width={L.dac[1] - L.adc[0]} height="20" /></clipPath>
+    <linearGradient id={`${id}-fl`} x1="0" x2="1"><stop offset="0" stop-color="#09182c" /><stop offset="1" stop-color="#09182c" stop-opacity="0" /></linearGradient>
+    <linearGradient id={`${id}-fr`} x1="1" x2="0"><stop offset="0" stop-color="#09182c" /><stop offset="1" stop-color="#09182c" stop-opacity="0" /></linearGradient>
   </defs>
 
   <g class="sc-labels">
-    <text x="24" y="78">ANALOG IN</text>
-    <text x="321" y="78" text-anchor="middle">DIGITAL</text>
-    <text x="616" y="78" text-anchor="end">ANALOG OUT</text>
+    <text x={L.inX[0]} y={L.labelY}>ANALOG IN</text>
+    <text x={(bx0 + bx1) / 2} y={L.labelY} text-anchor="middle">DIGITAL</text>
+    <text x={L.outX[1]} y={L.labelY} text-anchor="end">ANALOG OUT</text>
   </g>
-  <line class="sc-axis" x1="24" y1={mid} x2="174" y2={mid} />
-  <line class="sc-axis" x1="466" y1={mid} x2="616" y2={mid} />
+  <line class="sc-axis" x1={L.inX[0]} y1={mid} x2={L.inX[1]} y2={mid} />
+  <line class="sc-axis" x1={L.outX[0]} y1={mid} x2={L.outX[1]} y2={mid} />
 
-  <g clip-path="url(#sc-in)">
+  <g clip-path={`url(#${id}-in)`}>
     <g class="sc-move">
-      <path class="sc-wave" d={sine(-240, 300)} />
-      {dots(-240, 300).map(([x, y]) => <circle class="sc-dot" cx={x} cy={y} r="2.6" />)}
+      <path class="sc-wave" d={sine(L.inX[0] - 2 * period, L.inX[1] + 4)} />
+      {samples(L.inX[0] - 2 * period, L.inX[1]).map(x => <circle class="sc-dot" cx={x} cy={y(x)} r={layout === 'wide' ? 3.2 : 2.6} />)}
     </g>
   </g>
-  <rect x="24" y="100" width="34" height="200" fill="url(#sc-fade-l)" />
+  <rect x={L.inX[0]} y={L.labelY + 12} width="40" height={H - L.labelY - 12} fill={`url(#${id}-fl)`} />
 
-  <path class="sc-wire" d="M174,200 L196,200" />
+  <path class="sc-wire" d={`M${L.inX[1]},${mid} L${L.adc[0]},${mid}`} />
   <g class="sc-block">
-    <rect x="196" y="140" width="84" height="120" rx="6" />
-    <text x="238" y="206" text-anchor="middle">ADC</text>
-    <path class="sc-icon" d="M214,236 h10 v-6 h10 v-6 h10 v-6 h10 v-6 h8" />
+    <path d={pent(L.adc)} />
+    <text x={(L.adc[0] + L.adc[1] - 22) / 2} y={mid + 8} text-anchor="middle">ADC</text>
   </g>
+  <path class="sc-wire" d={`M${L.adc[1]},${mid} L${bx0},${mid}`} />
 
-  <g clip-path="url(#sc-bits)">
+  <g clip-path={`url(#${id}-bits)`}>
     <g class="sc-move-bits">
-      {[0, 224].map(o => bits.map(b => <rect class={b.on ? 'sc-bit on' : 'sc-bit'} x={288 - 224 + o + b.x} y={b.y} width="9" height="14" rx="1.5" />))}
+      {[0, unit].map(o => bits.map(b => <rect class={b.on ? 'sc-bit on' : 'sc-bit'} x={bx0 - unit + o + b.x} y={b.y} width={L.bitW} height={L.bitH} rx="1.5" />))}
     </g>
   </g>
 
-  <path class="sc-wire" d="M354,200 L362,200" />
+  <path class="sc-wire" d={`M${bx1},${mid} L${L.dac[0]},${mid}`} />
   <g class="sc-block">
-    <rect x="362" y="140" width="84" height="120" rx="6" />
-    <text x="404" y="206" text-anchor="middle">DAC</text>
-    <path class="sc-icon" d="M380,236 h8 v-6 h10 v-6 h10 v-6 h10 v-6 h10" />
+    <path d={pent(L.dac)} />
+    <text x={(L.dac[0] + L.dac[1] - 22) / 2} y={mid + 8} text-anchor="middle">DAC</text>
   </g>
-  <path class="sc-wire" d="M446,200 L466,200" />
+  <path class="sc-wire" d={`M${L.dac[1]},${mid} L${L.outX[0]},${mid}`} />
 
-  <g clip-path="url(#sc-out)">
+  <g clip-path={`url(#${id}-out)`}>
     <g class="sc-move">
-      <path class="sc-ghost" d={sine(226, 760)} />
-      <path class="sc-stairs" d={stairs(226, 760)} />
+      <path class="sc-ghost" d={sine(L.outX[0] - 2 * period, L.outX[1] + 4)} />
+      <path class="sc-stairs" d={stairs(L.outX[0] - 2 * period, L.outX[1] + ts)} />
     </g>
   </g>
-  <rect x="582" y="100" width="34" height="200" fill="url(#sc-fade-r)" />
+  <rect x={L.outX[1] - 40} y={L.labelY + 12} width="40" height={H - L.labelY - 12} fill={`url(#${id}-fr)`} />
 
   <g class="sc-clock">
-    <text x="196" y="324">CLK</text>
-    <g clip-path="url(#sc-clk)"><g class="sc-move-clk"><path d={clock(166, 470)} /></g></g>
+    <text x={L.adc[0] - 10} y={L.clkY + 9} text-anchor="end">CLK</text>
+    <g clip-path={`url(#${id}-clk)`}><g class="sc-move-clk"><path d={clock(L.adc[0] - 2 * ts, L.dac[1] + ts)} /></g></g>
   </g>
 </svg>
