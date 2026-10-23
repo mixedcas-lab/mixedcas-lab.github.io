@@ -26,8 +26,8 @@
   {
     "id": "j-03",
     "title": "6-bit 28GS/s High Speed DAC",
-    "citation": "\"6-bit 28GS/s High Speed DAC\", M.-J. Seo* et al., to be submitted to IEEE Transactions on Instrumentation and Measurement (TIM).",
-    "details": "M.-J. Seo* et al., to be submitted to IEEE Transactions on Instrumentation and Measurement (TIM).",
+    "citation": "\"6-bit 28GS/s High Speed DAC\", To be submitted to IEEE Transactions on Instrumentation and Measurement (TIM).",
+    "details": "To be submitted to IEEE Transactions on Instrumentation and Measurement (TIM).",
     "year": null,
     "kind": "Journal",
     "status": "In preparation",
@@ -360,45 +360,45 @@
   {
     "id": "prep-02",
     "title": "NAND Flash Memory Circuit Design",
-    "details": "In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to Advanced Science.",
+    "details": "To be submitted to Advanced Science.",
     "year": null,
     "kind": "Journal",
     "status": "In preparation",
     "venue": "Advanced Science",
-    "citation": "\"NAND Flash Memory Circuit Design\", In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to Advanced Science.",
+    "citation": "\"NAND Flash Memory Circuit Design\", To be submitted to Advanced Science.",
     "source": "lab"
   },
   {
     "id": "prep-03",
     "title": "Design Automation for NAND Flash Memory Circuits",
-    "details": "In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to the Design Automation Conference (DAC). Supported by SK hynix.",
+    "details": "To be submitted to the Design Automation Conference (DAC).",
     "year": null,
     "kind": "Conference",
     "status": "In preparation",
     "venue": "DAC",
-    "citation": "\"Design Automation for NAND Flash Memory Circuits\", In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to the Design Automation Conference (DAC). Supported by SK hynix.",
+    "citation": "\"Design Automation for NAND Flash Memory Circuits\", To be submitted to the Design Automation Conference (DAC).",
     "source": "lab"
   },
   {
     "id": "prep-04",
     "title": "Multi-Channel ADC for Physical AI",
-    "details": "To be submitted to IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II). Supported by ABOV Semiconductor.",
+    "details": "To be submitted to IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II).",
     "year": null,
     "kind": "Journal",
     "status": "In preparation",
     "venue": "TCAS-II",
-    "citation": "\"Multi-Channel ADC for Physical AI\", To be submitted to IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II). Supported by ABOV Semiconductor.",
+    "citation": "\"Multi-Channel ADC for Physical AI\", To be submitted to IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II).",
     "source": "lab"
   },
   {
     "id": "prep-05",
     "title": "Uplink ADC for Software-Defined Vehicles",
-    "details": "To be submitted to a conference. Supported by the National Research Foundation of Korea (NRF).",
+    "details": "To be submitted to a conference.",
     "year": null,
     "kind": "Conference",
     "status": "In preparation",
     "venue": null,
-    "citation": "\"Uplink ADC for Software-Defined Vehicles\", To be submitted to a conference. Supported by the National Research Foundation of Korea (NRF).",
+    "citation": "\"Uplink ADC for Software-Defined Vehicles\", To be submitted to a conference.",
     "source": "lab"
   }
 ]
