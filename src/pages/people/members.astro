@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import members from '../../data/members.json';
+const isRep = m => m.role === 'Lab representative';
+const rank = m => isRep(m) ? 0 : m.level === 'undergraduate' ? 2 : 1;
+const current = members.filter(m => m.status !== 'alumni').sort((a, b) => rank(a) - rank(b));
+const alumni = members.filter(m => m.status === 'alumni');
+const r = '../../';
+---
+<Layout title="Members" dark><PageHeading label="People" title="People." description="Faculty and students of MCAS Lab at the University of Seoul." />
+  <nav class="people-tabs container" aria-label="People sections"><a href={`${r}people/`}>Principal Investigator</a><a href={`${r}people/members/`} aria-current="page">Members</a></nav>
+  <section class="section"><div class="container">
+  <div id="students" class="section-heading"><div><span class="eyebrow"><span class="small-dot"></span>Students</span><h2>Students.</h2></div><a class="text-link" href="../../contact/">Graduate positions →</a></div><div class="people-grid">{current.map(m=><article class:list={["person",{"person-rep":isRep(m)}]}>{m.image?<img src={`../../${m.image}`} alt={m.name} loading="lazy" width="400" height="470" />:<div class="person-noimg" aria-hidden="true">{m.name.split(' ').map(w=>w[0]).join('')}</div>}<h3>{m.name}</h3><span class="person-role">{m.role}</span>{m.affiliation && <p>{m.affiliation}</p>}{m.research && <p>{m.research}</p>}{m.email && <a href={`mailto:${m.email}`}>{m.email}</a>}{m.program && <small>{m.program}</small>}</article>)}</div>
+  {alumni.length > 0 && <><div id="alumni" class="section-heading alumni-heading"><div><span class="eyebrow"><span class="small-dot"></span>Alumni</span><h2>Alumni.</h2></div></div><ul class="alumni-list">{alumni.map(m=><li><span class="alumni-name">{m.name}</span>{m.affiliation && <span class="alumni-aff">{m.affiliation}</span>}</li>)}</ul></>}</div></section>
+</Layout>
