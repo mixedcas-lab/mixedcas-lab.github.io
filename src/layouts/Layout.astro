@@ -1,9 +1,11 @@
 ---
 import site from '../data/site.json';
 import { relativeRoot } from '../lib/paths';
+import news from '../data/news.json';
 const { title = '', description = site.description, dark = false, rootOverride } = Astro.props;
 const root = rootOverride || relativeRoot(Astro.url.pathname);
 const nav = [['Research','research'],['People','people'],['Publications','publications'],['Gallery','gallery'],['News','news']];
+const latest = news[0];
 const current = Astro.url.pathname.split('/').filter(Boolean)[0] || '';
 const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') + Astro.url.pathname : undefined;
 ---
@@ -25,6 +27,7 @@ const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') 
   </head>
   <body class:list={{ 'dark-header':dark }}>
     <a class="skip-link" href="#main">Skip to content</a>
+    {latest && <a class="announce" href={`${root}news/`}><span class="container announce-inner"><span class="announce-date">{latest.date.replace('-','.')}</span><span class="announce-text">{latest.text}</span><span class="announce-more">All news <span aria-hidden="true">→</span></span></span></a>}
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href={root} aria-label="MCAS Lab home"><img class="brand-logo" src={`${root}${dark ? site.logos.dark : site.logos.light}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" /></a>
