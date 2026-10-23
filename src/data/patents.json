@@ -1,5 +1,61 @@
 [
   {
+    "title": "TRNG BASED ON AN OFFSET-TRACKING ADAPTIVE LEVEL SHIFTING INTERPOLATION ADC WITH LFSR-BASED POST-PROCESSING",
+    "details": [
+      "Applied US Patent, 19/828,937, 2026.10.02",
+      "서민재, 김승현"
+    ]
+  },
+  {
+    "title": "타이밍 마진 확보 및 불필요한 위상 천이 차단이 가능한 아날로그 디지털 변환 장치",
+    "details": [
+      "Applied KR Patent, 10-2026-0177112, 2026.09.16",
+      "서민재, 이재윤, 김형준, 김현우"
+    ]
+  },
+  {
+    "title": "공통 커패시터 배열을 공유하는 이중 변환 경로 기반의 축차근사형 아날로그 디지털 변환 장치 및 그 동작 방법",
+    "details": [
+      "Applied KR Patent, 10-2026-0177122, 2026.09.16",
+      "서민재, 김형준, 이재윤, 김현우, 심동규"
+    ]
+  },
+  {
+    "title": "상보형 소스 팔로워 구조를 갖는 아날로그-디지털 변환기용 버퍼 및 이를 포함하는 아날로그-디지털 변환기",
+    "details": [
+      "Applied KR Patent, 10-2026-0052047, 2026.03.23",
+      "서민재, 강희준, 정의훈, 전호진, 김홍진"
+    ]
+  },
+  {
+    "title": "오프셋 추종 적응형 레벨 시프팅 인터폴레이션 ADC를 이용한 진성 난수 발생기",
+    "details": [
+      "Applied KR Patent, 10-2026-0022387, 2026.02.04",
+      "서민재, 심동규, 김승현"
+    ]
+  },
+  {
+    "title": "LFSR 기반 후처리를 포함하는 오프셋 추종 적응형 레벨 시프팅 인터폴레이션 ADC 기반 진성 난수 발생기",
+    "details": [
+      "Applied KR Patent, 10-2026-0021411, 2026.02.03",
+      "서민재, 김승현"
+    ]
+  },
+  {
+    "title": "노이즈 보정 기반 회로 파라미터 최적화 시스템 및 방법",
+    "details": [
+      "Applied KR Patent, 10-2025-0055385, 2025.04.28",
+      "서민재, 서지원"
+    ]
+  },
+  {
+    "title": "머신러닝 기반의 회로 시뮬레이션 엔진 대체 모델 학습 방법 및 이를 이용한 파라미터 최적화 방법",
+    "details": [
+      "Applied KR Patent, 10-2025-0055389, 2025.04.28",
+      "서민재, 서지원"
+    ]
+  },
+  {
     "title": "Multi-Hole 구조의 WL Cut 위치에 따른 WL Rs Skew 개선 방안",
     "details": [
       "Applied KR Patent @ Samsung, P20210128950"

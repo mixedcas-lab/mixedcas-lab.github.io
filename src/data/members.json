@@ -2,7 +2,7 @@
   {
     "name": "Jiwon Seo",
     "email": "jiwonseo1@uos.ac.kr",
-    "research": "NAND readout circuits",
+    "research": "NAND flash readout circuits",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-1.jpg",
@@ -12,7 +12,7 @@
   {
     "name": "Hyeonwoo Kim",
     "email": "noais2004@uos.ac.kr",
-    "research": "High-speed ADC design",
+    "research": "High-speed analog-to-digital converters",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-2.jpg",
@@ -23,7 +23,7 @@
   {
     "name": "Inho Jang",
     "email": "inho1638@uos.ac.kr",
-    "research": "High-resolution ADC design",
+    "research": "High-resolution analog-to-digital converters",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-3.png",
@@ -32,7 +32,7 @@
   {
     "name": "Jaeyoon Lee",
     "email": "jaeyoonlee@uos.ac.kr",
-    "research": "High-speed ADC design",
+    "research": "Wireline transceivers (SerDes)",
     "role": "Lab representative",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-4.png",
@@ -41,7 +41,7 @@
   {
     "name": "Hyeongjun Kim",
     "email": "kpoo917@uos.ac.kr",
-    "research": "High-speed ADC design",
+    "research": "Wireline transceivers (SerDes)",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-5.jpg",
@@ -50,7 +50,7 @@
   {
     "name": "Seungbin Lee",
     "email": "lsb0522@uos.ac.kr",
-    "research": "High-speed ADC design",
+    "research": "Data converters for wireless communication",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-6.jpg",
@@ -59,7 +59,7 @@
   {
     "name": "Uhnsuk Lee",
     "email": "uhnsuk15@uos.ac.kr",
-    "research": "Research topic to be determined",
+    "research": "Wireline transceivers (SerDes)",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-7.jpg",
@@ -68,7 +68,7 @@
   {
     "name": "Junseong Kim",
     "email": "kjack0219@uos.ac.kr",
-    "research": "Research topic to be determined",
+    "research": "High-resolution analog-to-digital converters",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-8.png",
@@ -77,7 +77,7 @@
   {
     "name": "Junho Park",
     "email": "wnsqh4599@naver.com",
-    "research": "Research topic to be determined",
+    "research": "Wireline transceivers (SerDes)",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-9.jpg",
@@ -86,6 +86,7 @@
   {
     "name": "Giseong Han",
     "role": "Graduate researcher",
-    "image": "images/member-10.jpg"
+    "image": "images/member-10.jpg",
+    "research": "Data converters for wireless communication"
   }
 ]
