@@ -70,7 +70,7 @@ const [bx0, bx1] = L.bits;
   <path class="sc-wire" d={`M${L.inX[1]},${mid} L${L.adc[0]},${mid}`} />
   <g class="sc-block">
     <path d={pent(L.adc)} />
-    <text x={(L.adc[0] + L.adc[1] - 22) / 2} y={mid + 8} text-anchor="middle">ADC</text>
+    <text x={(L.adc[0] + L.adc[1] - 8) / 2} y={mid + 8} text-anchor="middle">ADC</text>
   </g>
   <path class="sc-wire" d={`M${L.adc[1]},${mid} L${bx0},${mid}`} />
 
@@ -83,7 +83,7 @@ const [bx0, bx1] = L.bits;
   <path class="sc-wire" d={`M${bx1},${mid} L${L.dac[0]},${mid}`} />
   <g class="sc-block">
     <path d={pent(L.dac)} />
-    <text x={(L.dac[0] + L.dac[1] - 22) / 2} y={mid + 8} text-anchor="middle">DAC</text>
+    <text x={(L.dac[0] + L.dac[1] - 8) / 2} y={mid + 8} text-anchor="middle">DAC</text>
   </g>
   <path class="sc-wire" d={`M${L.dac[1]},${mid} L${L.outX[0]},${mid}`} />
 
