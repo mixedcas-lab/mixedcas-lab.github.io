@@ -5,9 +5,9 @@ import research from '../data/research.json';
 import site from '../data/site.json';
 ---
 <Layout title="Research" dark>
-  <PageHeading label="Research / From ideas to silicon" title="Across the signal spectrum." description="Mixed-signal circuits for communication, sensing, memory and intelligent systems." />
-  <section class="section"><div class="container"><div class="research-overview"><h2>Connecting the physical<br/>and digital worlds.</h2><p>{site.description}</p></div>
-  {research.map((r,i)=><article class="research-block" id={r.id}><span class="large-no">0{i+1}</span><div><span class="eyebrow">{r.tag}</span><h2>{r.title}</h2><small lang="ko">{r.subtitle}</small></div><div><p>{r.description}</p><small>{r.originalTitle}</small></div></article>)}
-  <div class="subsection"><span class="eyebrow">Research archive</span><h2 style="margin-top:16px">A closer look at the silicon.</h2><p>The original chip-photograph collection from our research page.</p><figure class="full-chip"><a href="../images/chips.png" target="_blank" rel="noopener" aria-label="Open full chip photograph"><img src="../images/chips.png" width="1280" height="545" alt="Chip photograph collection: touch pen, 3D touch, sensor, biomedical and 5G wireless communication circuits" loading="lazy" /></a><figcaption>Chip photographs from the MCAS research archive · Select the image to view it in full.</figcaption></figure></div>
-  <div class="button-row"><a class="button" href="../publications/">Read our publications ↗</a><a class="button button-outline" href={site.census}>Explore ADC Census ↗</a></div></div></section>
+  <PageHeading label="Research" title="Research." description="Data converters and mixed-signal circuits for communication, sensing, memory and computing." />
+  <section class="section"><div class="container"><div class="research-overview"><h2>Overview.</h2><p>{site.description}</p></div>
+  {research.map((r,i)=><article class="research-block" id={r.id}><span class="large-no">0{i+1}</span><div><span class="eyebrow">{r.tag}</span><h2>{r.title}</h2></div><div><p>{r.description}</p><small>{r.originalTitle}</small></div></article>)}
+  <div class="subsection" id="chips"><span class="eyebrow">Chip micrographs</span><h2 style="margin-top:16px">Chips.</h2><p>Chips designed and measured at MCAS Lab.</p><figure class="full-chip"><a href="../images/chips.png" target="_blank" rel="noopener" aria-label="Open full chip photograph"><img src="../images/chips.png" width="1280" height="545" alt="Chip photograph collection: touch pen, 3D touch, sensor, biomedical and 5G wireless communication circuits" loading="lazy" /></a><figcaption>Select the image to view it at full size.</figcaption></figure></div>
+  <div class="button-row"><a class="button" href="../publications/">Publications →</a><a class="button button-outline" href="../#census">Census data →</a></div></div></section>
 </Layout>

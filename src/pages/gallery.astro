@@ -4,7 +4,7 @@ import PageHeading from '../components/PageHeading.astro';
 import gallery from '../data/gallery.json';
 const albums=gallery.map(g=>({...g,images:g.images.map(src=>'../'+src)}));
 ---
-<Layout title="Life at MCAS" dark><PageHeading label="Life at MCAS / Gallery" title="More than a laboratory." description="Conferences, milestones and everyday moments with the people who make MCAS." />
+<Layout title="Gallery" dark><PageHeading label="Lab life" title="Gallery." description="Conferences, awards and everyday moments at MCAS Lab." />
   <section class="section"><div class="container"><div class="gallery-grid">{albums.map((album,index)=><article class="album" id={album.id}><a href={album.images[0]} data-album={index} aria-label={`Open album: ${album.title}`}><img src={album.images[0]} alt={album.title} loading="lazy" width="640" height="480" /><span class="photo-count">{album.images.length} {album.images.length===1?'PHOTO':'PHOTOS'} ↗</span></a><h2 lang="ko">{album.title}</h2></article>)}</div></div></section>
   <script type="application/json" id="gallery-data" set:html={JSON.stringify(albums).replace(/</g,'\\u003c')} />
   <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-top"><h2 id="lightbox-title"></h2><button id="lightbox-close" aria-label="Close gallery">✕</button></div><img id="lightbox-image" class="lightbox-image" src="" alt="" /><div class="lightbox-bottom"><button id="lightbox-prev" aria-label="Previous photo">←</button><span id="lightbox-counter" aria-live="polite"></span><button id="lightbox-next" aria-label="Next photo">→</button></div></dialog>

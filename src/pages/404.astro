@@ -2,4 +2,4 @@
 import Layout from '../layouts/Layout.astro';
 const root=(process.env.SITE_URL||'.').replace(/\/$/,'')+'/';
 ---
-<Layout title="Page not found" rootOverride={root}><section class="error-page"><div class="container"><span class="eyebrow">404 / Signal not found</span><h1>Let’s reconnect.</h1><p>The page you are looking for could not be found.</p><a class="button" href={root}>Back to MCAS Lab ↗</a></div></section></Layout>
+<Layout title="Page not found" rootOverride={root}><section class="error-page"><div class="container"><span class="eyebrow">404</span><h1>Page not found.</h1><p>The page you are looking for could not be found.</p><a class="button" href={root}>Back to MCAS Lab ↗</a></div></section></Layout>

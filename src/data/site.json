@@ -8,7 +8,7 @@
   "nameKo": "혼성신호 회로 및 시스템 연구실",
   "university": "University of Seoul",
   "school": "School of Advanced Fusion Studies",
-  "description": "We design mixed-signal integrated circuits and systems, from high-speed data converters for wireline and wireless links to low-noise readout for biomedical, image-sensor and memory applications.",
+  "description": "MCAS Lab at the University of Seoul designs mixed-signal integrated circuits: data converters and the systems around them, from ultra-high-speed converters for communication links to low-power converters for biomedical sensing.",
   "email": "mjseo@uos.ac.kr",
   "phone": "+82-2-6490-2145",
   "phoneLabel": "Professor’s office",
@@ -19,9 +19,9 @@
   "heroKo": "아날로그와 디지털을 잇는 회로를 설계합니다.",
   "recruiting": "본 연구실에서 차세대 혼성 신호 회로 및 시스템 분야에 관심 있는 대학원생을 상시 모집합니다. 관심이 있거나 상담이 필요한 학생은 이메일 주시기 바랍니다.",
   "contactPagePhone": "+82-2-6490-5561",
-  "heroLine1": "Analog worlds.",
-  "heroAccent": "Digital",
-  "heroLine3": "possibilities.",
+  "heroLine1": "Mixed-signal",
+  "heroAccent": "circuits",
+  "heroLine3": "& systems.",
   "featuredPaperIds": [
     "j-01",
     "j-06",
@@ -31,5 +31,25 @@
     "album-8",
     "album-1",
     "album-17"
+  ],
+  "heroLead": "We design data converters and the mixed-signal integrated circuits around them, from ultra-high-speed converters for communication links to low-power converters for biomedical sensing.",
+  "recruitingEn": "We are looking for graduate students interested in mixed-signal and data-converter circuit design. Please email Prof. Min-Jae Seo to talk about research topics and admission.",
+  "censusSites": [
+    {
+      "name": "ADC Census",
+      "url": "https://mixedcas-lab.github.io/adc-census/"
+    },
+    {
+      "name": "PLL Census",
+      "url": "https://mixedcas-lab.github.io/pll-census/"
+    },
+    {
+      "name": "LDO Census",
+      "url": "https://mixedcas-lab.github.io/ldo-census/"
+    },
+    {
+      "name": "PMIC Census",
+      "url": "https://mixedcas-lab.github.io/pmic-census/"
+    }
   ]
 }

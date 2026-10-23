@@ -3,7 +3,7 @@ import site from '../data/site.json';
 import { relativeRoot } from '../lib/paths';
 const { title = '', description = site.description, dark = false, rootOverride } = Astro.props;
 const root = rootOverride || relativeRoot(Astro.url.pathname);
-const nav = [['Research','research'],['People','people'],['Publications','publications'],['Life at MCAS','gallery'],['News','news']];
+const nav = [['Research','research'],['People','people'],['Publications','publications'],['Gallery','gallery'],['News','news']];
 const current = Astro.url.pathname.split('/').filter(Boolean)[0] || '';
 const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') + Astro.url.pathname : undefined;
 ---
@@ -31,18 +31,18 @@ const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') 
         <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false"><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
         <nav id="primary-nav" aria-label="Main navigation">
           {nav.map(([label,path])=><a href={`${root}${path}/`} aria-current={current===path?'page':undefined}>{label}</a>)}
-          <a class="nav-contact" href={`${root}contact/`}>Join / Contact <span aria-hidden="true">↗</span></a>
+          <a class="nav-contact" href={`${root}contact/`}>Contact <span aria-hidden="true">→</span></a>
         </nav>
       </div>
     </header>
     <main id="main"><slot /></main>
     <footer class="site-footer">
       <div class="container footer-top">
-        <div><a class="footer-logo" href={root} aria-label="MCAS Lab home"><img src={`${root}${site.logos.dark}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" loading="lazy" /></a><p>{site.fullName}<br/><span lang="ko">{site.nameKo}</span></p></div>
+        <div><a class="footer-logo" href={root} aria-label="MCAS Lab home"><img src={`${root}${site.logos.dark}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" loading="lazy" /></a><p>{site.fullName}</p></div>
         <div><span class="eyebrow">University of Seoul</span><p>School of Advanced Fusion Studies<br/>Natural Science Building · Room 305</p><a href={`mailto:${site.email}`}>{site.email} ↗</a></div>
-        <div class="footer-links"><a href={`${root}teaching/`}>Teaching</a><a href={`${root}publications/#patents`}>Patents</a><a href={site.census}>ADC Census ↗</a><a href={`${root}contact/`}>Visit the lab ↗</a></div>
+        <div class="footer-links"><a href={`${root}teaching/`}>Teaching</a><a href={`${root}publications/#patents`}>Patents</a><a href={`${root}#census`}>Census data</a><a href={`${root}contact/`}>Contact</a></div>
       </div>
-      <div class="container footer-bottom"><span>© {new Date().getFullYear()} MCAS Lab. University of Seoul.</span><span>Mixed signals. Shared curiosity.</span><a href="#main">Back to top ↑</a></div>
+      <div class="container footer-bottom"><span>© {new Date().getFullYear()} MCAS Lab. University of Seoul.</span><span>University of Seoul · School of Advanced Fusion Studies</span><a href="#main">Back to top ↑</a></div>
     </footer>
   </body>
 </html>
