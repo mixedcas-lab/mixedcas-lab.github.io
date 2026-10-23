@@ -6,7 +6,8 @@
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-1.jpg",
-    "source": "https://mcas.uos.ac.kr/member/student"
+    "source": "https://mcas.uos.ac.kr/member/student",
+    "status": "alumni"
   },
   {
     "name": "Hyeonwoo Kim",
@@ -15,7 +16,9 @@
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-2.jpg",
-    "source": "https://mcas.uos.ac.kr/member/student"
+    "source": "https://mcas.uos.ac.kr/member/student",
+    "status": "alumni",
+    "affiliation": "ABOV Semiconductor"
   },
   {
     "name": "Inho Jang",
@@ -79,5 +82,10 @@
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-9.jpg",
     "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Giseong Han",
+    "role": "Graduate researcher",
+    "image": "images/member-10.jpg"
   }
 ]
