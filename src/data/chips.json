@@ -1,0 +1,9 @@
+[
+  { "image": "images/chip-tisar-28nm-die.jpg", "title": "7-bit 32-GS/s time-interleaved SAR ADC", "process": "28-nm CMOS" },
+  { "image": "images/chip-pipelined-sar.jpg", "title": "12-bit 200-MS/s single-amplifier dual-residue pipelined-SAR ADC", "process": "40-nm CMOS · VLSI 2019" },
+  { "image": "images/chip-ct-dsm.jpg", "title": "10-MHz-BW 74.4-dB-SNDR CT delta-sigma modulator with SAR-assisted noise coupling", "process": "28-nm CMOS · JSSC 2018" },
+  { "image": "images/chip-ti-dac.jpg", "title": "6-bit 20-GS/s time-interleaved DAC", "process": "65-nm CMOS · TCAS-II 2018" },
+  { "image": "images/chip-buffer-sar.jpg", "title": "Single-supply buffer-embedding SAR ADC with skip-reset chopping", "process": "180-nm CMOS · JSSC 2020" },
+  { "image": "images/chip-reset-sar.jpg", "title": "18.5-nW 12-bit 1-kS/s reset-energy-saving SAR ADC", "process": "180-nm CMOS · TCAS-I 2018" },
+  { "image": "images/chip-sati-sar.jpg", "title": "0.6-V 12-bit 10-MS/s SATI-SAR ADC", "process": "65-nm CMOS · JSSC 2016" }
+]

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Chip from '../components/Chip.astro';
+import SignalChain from '../components/SignalChain.astro';
+import chips from '../data/chips.json';
 import Paper from '../components/Paper.astro';
 import site from '../data/site.json';
 import research from '../data/research.json';
@@ -19,18 +20,14 @@ const moments=site.homeAlbumIds.map(id=>gallery.find(g=>g.id===id)).filter(Boole
         <p class="hero-description">{site.heroLead}</p>
         <div class="button-row"><a class="button" href="./research/">Research <span aria-hidden="true">→</span></a><a class="button button-outline" href="./publications/">Publications <span aria-hidden="true">→</span></a></div>
       </div>
-      <div class="chip-stage" aria-label="A composition of real chip micrographs from MCAS research">
-        <div class="stage-orbit" aria-hidden="true"></div><span class="stage-cross" aria-hidden="true">+</span>
-        <div class="chip-tile chip-t4"><img src="./images/chip-ct-dsm.jpg" width="760" height="592" alt="Die photo of a 10-MHz-BW continuous-time delta-sigma modulator in 28-nm CMOS" /></div><div class="chip-tile chip-t2"><img src="./images/chip-tisar-28nm-die.jpg" width="700" height="700" alt="Die photo of a 7-bit 32-GS/s TI-SAR ADC in 28-nm CMOS" /></div><div class="chip-tile chip-t1"><Chip variant="sar" /></div><div class="chip-tile chip-t3"><img src="./images/chip-sati-sar.jpg" width="1050" height="416" alt="Die photo of a 0.6-V 12-bit 10-MS/s SATI-SAR ADC" /></div>
-        <span class="stage-label">Chip micrographs</span>
-      </div>
+      <div class="signal-stage"><SignalChain /></div>
     </div>
     <div class="container hero-bottom"><span>Mixed-Signal Circuits and Systems Laboratory</span><span><span class="hide-mobile">Seoul, Korea</span><a href="#research">Research ↓</a></span></div>
   </section>
   <section class="section" id="research"><div class="container intro-grid"><div><span class="eyebrow"><span class="small-dot"></span>01 / Research</span><h2>Five research<br/>directions.</h2></div><div><p>{site.description}</p><a class="text-link" href="./research/">All research <span aria-hidden="true">→</span></a></div></div></section>
   <section class="section research-section"><div class="container research-layout">
     <div class="research-list">{research.map((r,i)=><details class="research-item" open={i===0}><summary><span class="item-no">{String(i+1).padStart(2,'0')}</span><h3>{r.title}</h3><span aria-hidden="true">+</span></summary><p>{r.description}</p><div class="detail-tag"><a href={`./research/#${r.id}`}>{r.tag} ↗</a></div></details>)}</div>
-    <figure class="research-figure"><span class="eyebrow">Chip micrograph</span><Chip variant="touch" /><figcaption class="figure-label"><span>MCAS Lab</span><a href="./research/#chips">More chips →</a></figcaption></figure>
+    <figure class="research-figure chip-carousel"><span class="eyebrow">Chip micrographs</span><div class="cc-frame">{chips.map((c,i)=><div class="cc-slide" style={`animation-delay:${i*4}s`}><img src={`./${c.image}`} alt={`Die photo: ${c.title}`} loading="lazy" /><span class="cc-cap"><b>{c.title}</b>{c.process}</span></div>)}</div><figcaption class="figure-label"><span>{chips.length} chips</span><a href="./research/#chips">All chips →</a></figcaption></figure>
   </div></section>
   <section class="section papers-section"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="small-dot"></span>02 / Publications</span><h2>Selected papers.</h2></div><a class="text-link" href="./publications/">All publications <span aria-hidden="true">↗</span></a></div>{featured.map((paper,index)=><Paper paper={paper} index={index} featured />)}</div></section>
   <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="small-dot"></span>03 / Lab life</span><h2>Inside the lab.</h2></div><a class="text-link" href="./gallery/">Gallery <span aria-hidden="true">→</span></a></div><div class="life-grid">{moments.map(m=><a class="life-card" href={`./gallery/#${m.id}`}><div class="image-wrap"><img src={`./${m.images[0]}`} alt={m.title} loading="lazy" width="800" height="600" /></div><h3 lang="ko">{m.title}</h3><span>View album →</span></a>)}</div></div></section>
