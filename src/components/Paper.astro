@@ -1,9 +1,8 @@
 ---
 const { paper, featured=false, index=0 }=Astro.props;
-const search=`https://scholar.google.com/scholar?q=${encodeURIComponent('"'+paper.title+'"')}`;
 ---
 <article class:list={['paper',{'featured-paper':featured}]} data-paper data-year={paper.year||'unknown'} data-kind={paper.kind} data-search={`${paper.title} ${paper.details}`.toLowerCase()}>
   <div class="paper-index">{featured?String(index+1).padStart(2,'0'):paper.year||'—'}</div>
-  <div class="paper-main"><div class="paper-meta"><span>{paper.venue||paper.kind}</span><span>{paper.kind}</span>{paper.status!=='Published'&&<span class="status">{paper.status}</span>}</div><h3>{paper.title}</h3><p>{paper.details}</p></div>
-  <a class="paper-link" href={search} target="_blank" rel="noopener noreferrer" aria-label={`Find paper: ${paper.title}`} title="Find on Google Scholar">↗</a>
+  <div class="paper-main"><div class="paper-meta"><span>{paper.venue||paper.kind}</span><span>{paper.kind}</span>{paper.status!=='Published'&&<span class="status">{paper.status}</span>}</div><h3>{paper.url?<a class="paper-title-link" href={paper.url} target="_blank" rel="noopener noreferrer">{paper.title}</a>:paper.title}</h3><p>{paper.details}</p></div>
+  {paper.url?<a class="paper-link" href={paper.url} target="_blank" rel="noopener noreferrer" aria-label={`Open paper: ${paper.title}`} title="Open paper">↗</a>:<span aria-hidden="true"></span>}
 </article>

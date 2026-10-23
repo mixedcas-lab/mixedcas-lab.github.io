@@ -8,7 +8,8 @@
     "kind": "Journal",
     "status": "Accepted",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2026.3739465"
   },
   {
     "id": "j-02",
@@ -41,7 +42,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "Advanced Science",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1002/advs.202501926"
   },
   {
     "id": "j-05",
@@ -52,7 +54,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-II",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsii.2024.3465888"
   },
   {
     "id": "j-06",
@@ -63,7 +66,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2024.3360944"
   },
   {
     "id": "j-07",
@@ -74,7 +78,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "Micromachines",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.3390/mi14030506"
   },
   {
     "id": "j-08",
@@ -85,7 +90,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2022.3159569"
   },
   {
     "id": "j-09",
@@ -96,7 +102,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "Electronics",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.3390/electronics10040421"
   },
   {
     "id": "j-10",
@@ -107,7 +114,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2020.3006450"
   },
   {
     "id": "j-11",
@@ -118,7 +126,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-II",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsii.2019.2916913"
   },
   {
     "id": "j-12",
@@ -129,7 +138,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2019.2899720"
   },
   {
     "id": "j-13",
@@ -140,7 +150,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-II",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsii.2018.2822811"
   },
   {
     "id": "j-14",
@@ -151,7 +162,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-I",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsi.2018.2851576"
   },
   {
     "id": "j-15",
@@ -162,7 +174,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-II",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsii.2018.2809965"
   },
   {
     "id": "j-16",
@@ -173,7 +186,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2017.2778284"
   },
   {
     "id": "j-17",
@@ -184,7 +198,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-II",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsii.2017.2689029"
   },
   {
     "id": "j-18",
@@ -195,7 +210,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TED",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/ted.2018.2795005"
   },
   {
     "id": "j-19",
@@ -206,7 +222,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "TCAS-I",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/tcsi.2016.2612692"
   },
   {
     "id": "j-20",
@@ -217,7 +234,8 @@
     "kind": "Journal",
     "status": "Published",
     "venue": "JSSC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/jssc.2016.2563780"
   },
   {
     "id": "c-21",
@@ -239,7 +257,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "A-SSCC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/a-sscc67472.2025.11349367"
   },
   {
     "id": "c-23",
@@ -250,7 +269,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "MWSCAS",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/mwscas53549.2025.11244391"
   },
   {
     "id": "c-24",
@@ -261,7 +281,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "VLSI",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/vlsitechnologyandcir46783.2024.10631347"
   },
   {
     "id": "c-25",
@@ -272,7 +293,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "CICC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/cicc57935.2023.10121247"
   },
   {
     "id": "c-26",
@@ -283,7 +305,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "EMBC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/embc44109.2020.9176708"
   },
   {
     "id": "c-27",
@@ -294,7 +317,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "A-SSCC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/a-sscc47793.2019.9056894"
   },
   {
     "id": "c-28",
@@ -305,7 +329,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "VLSI",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.23919/vlsic.2019.8778005"
   },
   {
     "id": "c-29",
@@ -316,7 +341,8 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "VLSI",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.23919/vlsic.2017.8008537"
   },
   {
     "id": "c-30",
@@ -327,6 +353,7 @@
     "kind": "Conference",
     "status": "Published",
     "venue": "ESSCIRC",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "url": "https://doi.org/10.1109/esscirc.2015.7313892"
   }
 ]
