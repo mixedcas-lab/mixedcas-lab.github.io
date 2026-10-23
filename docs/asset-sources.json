@@ -1,0 +1,490 @@
+{
+  "sourceWebsite": "https://mcas.uos.ac.kr",
+  "retrieved": "2026-10-23",
+  "assets": [
+    {
+      "path": "images/chips.png",
+      "sourcePage": "https://mcas.uos.ac.kr/research",
+      "description": "Original chip-photograph composite; CSS crops used decoratively without changing scientific labels."
+    },
+    {
+      "path": "images/member-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uMyUOdIp2GQaS0sUiHpxtcDptKOdnJcG943FtiyuWi_5v4RIfC9x9tgjkWzbOd2iZsRjMfnL7M5EqGB7JhF-k_fuOTShF1tmjQZpeDnnQVBlLApm1wb03duvMs2d9PyatSjXcz9RJhZl4ZKBL7o7sHaJhaFz0GmXrrLCi_3o-RIJmUwR9FvBlkX8PjKKhWc5Fniyd95V-f90Elm76N9sosu8WEIpmMKtmRmARhx2E=w1280"
+    },
+    {
+      "path": "images/member-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72thAnsb_EsmJfzPnkmNUVeWpALz0hMEvo8sWwH0QY4ma-V2gVxYPhrh2a7KITRRZXpeJ3G6t6p52cxyX1ZseBAk0egnqrO0dIfRwJdYycm6bA8WAb3DhpjpnxS2UfMS9FdSRFXYHXWlZcj_0axxYA4cjPqQRkcYS1D16kG7GIXqL7IcjimMadl5B-MS4FL17wUR1S4HpiLqovK_7PgyC1Mj1FkuZIwy-Rv0wOaI=w1280"
+    },
+    {
+      "path": "images/member-3.png",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vNmx3Zm2Altn5iTn0uKhL_3lNLQCK7YVwbanfDxQGnnuqBEEBNa78kVWP5RpD6thSqn_cA7oI_kLwims4tkV8v6C-0A_kUc1ZLWNosXaJi_Uwe6rGctUI_P4sx0r4cetzCR4wBgncEDz7BOvnflpPedKRYEVdIrxwSP4h5tX2PmOYHYio_8fjdt3Gu2_WHYKXYUVIseTXOHDnVIBCnsu2yNdSLOJMH7CNa0NIfYug=w1280"
+    },
+    {
+      "path": "images/member-4.png",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uhnXNsY1VLMvu-lyS4qLwjt-_7dgir13RV7R7YlILoHVlrpuC4as1qtby5IRg2ZM2ESoQbXun6eoUxDSQL_WWcgjaeFKc6QeeuSoG4RaCwki8ZQKXjD8e0SpLfRcFvd0GGFJwB3wQOqwOc7BH9hjQYqlCgHypQN2Du50hfQxf0Rr0mvKnJfrGcfJzRa-dXX2r_CHNL02pINg2vTBSYLhJ2ZtfsVh5-Apjt2XsgREY=w1280"
+    },
+    {
+      "path": "images/member-5.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sZFEyUUSd2HDMmdYUaqYhWmSFwUv1SlczckUzjdZ2MjtDBHY2rbb1ePXzXpIO9880JveVOORohpKIOGWgJxesJ-8TgTsPmOTvP-DxnDUDwTCLNtgqz8fRcDg3xFhPEKLL0t2nZqpF-ZABPVkzmXdgyMIRYq5PoAxFg4vOlL82Hff1hhJTCJ8rfkApqnHu6wD9SCgOgoPEkAiTipuIuvSAHryv9G1Z3y70r6SWrobA=w1280"
+    },
+    {
+      "path": "images/member-6.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uUugYjAMMGCXiV3QQb2ucBgYWSBUU95eA6rYU9DZHUFSS9CPBPyzdWLc7m_fiq4jcHqPGTvI1ZbyNuUuTqaJgjXcejb_H2psvqKCml-FYk2ndEQakVnsELoFaabi_7hCMrIAJIYNxbSrvKakGyrz1G65MgQ0w-FmA1H-hnk4qqm_vWHELrHZ3RaiWQaS_NTXUZAlMXR5358nAjiUl_bAulf7XKsPzAobacZc7Q780=w1280"
+    },
+    {
+      "path": "images/member-7.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vzWDs4nwxnyTyOhg7U0O95LqdkGmK2rVONzxy9bEXT7Q2Ph5JTSohXIhMr5LHJ-hEvwyEoXlWK-w4KPffqlB2bVUUIWb1MNmoAAjtBP458XScr2pfNYU8btP89Km6pEp8aGL0-1-8BWPW1H716qiy_qBe0VN4IsHuUhWSp9U094pCg9Km6omEJuZoQ6U-EOau9JGjl6mfx9GsJ4UudDk_bzDHwn-e5Gax1g-rZ=w1280"
+    },
+    {
+      "path": "images/member-8.png",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uhF46HzjMHGWSlqZ-3s2qrzljfOOhiiv2vvHut-S1kjaAR-v6_6AQ-M1C_2xMRe1RdphOBNWUFWV1WjATBABeCicMYEAUsmIs9Uy5WAV2VwuaSs-K7ii_wRefCNLz9p-QpzZSs5UT9PQGSQRyFaoehqWU3Mi3DJwAG7c0BEb2jEDZMebzSKiI9g-mbcneSq1o6qTOsaTrNoMcJQHTu9Di_V7PKqeoYMDEqotiTcI8=w1280"
+    },
+    {
+      "path": "images/member-9.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/student",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vyTEmXb0ZZz0W2YFhBJTq6UYIDaCAHybQz3TZwm_wxuEn-_nsscHqVjeuIJZUXT0qKrcGhYcrp_pbTiKr885rlkWFHAz_g4Z7FOKp72D8jEBQASOIh8NZcyc5SoUylUxJmaBZj9o5bxoPLAkuHYxnMT6ryllCo6GxKDfw6YAt2bZ_WcO1oV1ZAJFVT72yIPwCHAdXaZX3fREM2gnyeLW4G24CwPvq_NftPmYbm=w1280"
+    },
+    {
+      "path": "images/professor.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/member/professor",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tDO2dy8MveClGs76_Zh5r06grrwWzuzcv7vbb5qr4fGBEm26pM1UU0Z4yyPNjHhOb5JzhfvnWmDHZTbk3nOMMtzIySqomciPTEEwK3O5RvvDRFc_PnY_HH8G8aJWJIkPe_JzhanRjOopcGfW-oNYjKbZRWYoSLLhuZmRJuw6IWaUmftb_CjMAobS1tlByoYHRoXSeXr9oebgRHqGKc0XyyOn6rBeWgNYua9lcX=w1280"
+    },
+    {
+      "path": "images/gallery-1-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u1OnLE-d-Ce6Wht9Z1SQ7yGfenTfFewvgfwv0tXL47OTdcnR-_ScANVsZAtjNtDXrnIopwHqFVcDz0QCFNR1AqLH5wm4jaqweJYXeWVQ2YlFIQLPBNuI0FnR77GkKTLo3rGmOTiZRZqFlkt2tB5QvQeZZmzFv6AVKIkfqjtG9eEGlVXCunRTYDNQRn=w16383"
+    },
+    {
+      "path": "images/gallery-1-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ueuidqR6UWEop8XR4PvxdaSHKIv11TrKfOxN95d9-MgSpGnMvVwCHvGcL6T6n4NcUNHnDq_7qi-2nTRPaiYWhmwdAMLW1GIcn5yoazyqEt2d3KvNn6bBn6lqbbXXeKnBM1LzbPKT6LSWot2q2TmosjqsYDmSd6A2IO0_mlmOS2V-0wWHiylhXbe9MKW0Q=w16383"
+    },
+    {
+      "path": "images/gallery-2-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v6K3C03W6fdyb9U0sxgNS2wTnBGwlt7l355CT1hfY5j3d5aOVO7HpNj2pZyX9B7LAUtfdEoGjQZJ3i4RcjA6nUfyRSIq1GPcR17wXJ0lAcR9gQQV5_W2_fTTi4XosPdJHXmnAq9EoOGcsHx93_3bj-iXMetiTJRxXx8wnxx8g1oCBKkqhv8s213F-RzOo=w16383"
+    },
+    {
+      "path": "images/gallery-2-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uOG_AKE4Pdpd_FdydgCyvKoYHaDoR2c3rPBmffU0r9JDx4GOp1eTWUzmZse5p7pno0EOPzIFuWBczpHg5wDnI9ujxSwsHbFqKPEFQG5AVU_T-UVOsJ0Rek3nLwIJwVT7NqNaEVrN8oU0PslrYi4qMBdKkFdKc6TQa9kjC8L_c_IYT9GrDSzdqY_zin=w16383"
+    },
+    {
+      "path": "images/gallery-3-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t2nsotfiqJYOwrrD_P_gsZkWcdRQ3LdwBp_4nGnq4jYgLKMaZVbsTerxvZvVhKc7yojrFCXyaj14rHsyYeZ6D_8xeMGhROaUS92a5ySur9P5m4wxMAshv-Jf5nLmZC5AUWstMGrw4IOKVoK8Ogk4LD8Xi1KTBMRtaYfxl-Ce27qczvet8uN-E30gpw9_Q=w16383"
+    },
+    {
+      "path": "images/gallery-3-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tNCm45VPj0_LkgteO2R090Ts8AnyzRjgOcoZk9l46JDjcYNDlDC7TPSJYskvLiqlSXfpirItLlczvAaz-PO8VzOx_sUFxR_Mc5RtAQKgNTKXNXtrH6mFzMLIvOaLPuWlG_6BFZvWbwtGEa79Cz70B_CxiQMzaKwNQjyfzDqBMSL4ryUGg1CTYFVCOk=w16383"
+    },
+    {
+      "path": "images/gallery-3-3.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ucOm805PojsQkdon0eBUenMiwdawLo9pBnP9YwQ2xmb5EjlzkEgpv1VMR4ACgWzu9TCwv7pFnxZibtARLTF8wUWuwbrGP3ro5yJkBnfTX3hR70VLRLLgDp-rybX9TNBrCuaLrpTB7K7of8gy-lHRPpfQ9p1y212MmmpEDiQWCGw2Yc9BvBd_J_G18TPZw=w16383"
+    },
+    {
+      "path": "images/gallery-4-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uugefGe_2UwzTuXrs7qyPiLCBjX-H37xLSKXx9Ucy7W869lZE1XLjLA5il0f24L93cB1MRz3flrW7hBCQwCpUC4jy0RAItYlkYx6PYfR26ImMAIHn_Lba4I3Vlu9S7oB8jM6TYDYqBReNny1OpCEgt0KOV8yXthT71pWfGrG-HgfK_SYL79QAzDf2XY7Y=w16383"
+    },
+    {
+      "path": "images/gallery-4-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tFnXaNYe_ITY0PzPQ6lwkn84Io9hkPmmghoQ3629dBmBFQDAMKgngLsOqiTbVhTVVzXIseAUwqMlqQ9K1xWsmNBY7iTryVy8oty5f7BVu9NA4DjZfkRSbdfXj6hHyAG9CXyP22pj8-_NmbLCaTR6xkaL25cJZuH-MFavuKc531Bk7D2nzoa8dpmDrw=w16383"
+    },
+    {
+      "path": "images/gallery-5-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t07lRZiFxVqY4JwnByrcUe-zpgs3Om4m8_SSPQYFG-AODnoGkXiDIJSIkcuchUeDcQf2lcRq-eviAvOpDN6-zNRChBA-DmU4xq2mIqV1D5r-jkX_tpM3Eb-uKzlKFJszKx5ZHp217NRY7Knu1jFaLFiOGcMRsXodoDaBhnv-eGCQaN1B78rWJU6sT5=w16383"
+    },
+    {
+      "path": "images/gallery-5-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uac7PbLe_TMN459WMq2aijurGE43jSxnEJlwzpEvMzz7B4OXMunXVRV06m_IEoNGq8nc6bUISqhyvgi19JszR-19oY2tJFgQQ1U8hFj614ZULvce6izOtVOItdkljpmj3nOQx3XyuIRq81R3az6Ky3EXHrZZM-PpGHaDzKhYoXF2tri6RdSEKJmpvzoME=w16383"
+    },
+    {
+      "path": "images/gallery-6-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sAJv3MAHbVQHd4oBSpbbw_6uFoaRv8jGMkxfEkt7HFI1npEQ0trZWlbSrq50PSfTN11wSx2Fgq3P_7TpoAQPdDUpgi8LR0xAcM7w8rT3XHe8wkNYRtre9midqhdkpGrB8f8SGJIo1yTCw0Qb2pJPvWXu-hQYYxSTPTJINVK1xrGrE9LajgOMwPHbyR=w16383"
+    },
+    {
+      "path": "images/gallery-6-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sfA97rlHvE16xiKiyc7zehgKv9a8bg3c0PiXL3HX6LeSnZLKr5Sb7O4jTtAb9XimDFZ71k_AY6kXszh59OQvv5y7QM705DkKXsasS6b_f3bZhj1RuMwTk0XFH_aZRVAoUiahXC4qKOotKq4A5BqXIakZJ1esIhNOKpU8oaYTDtz6R2ZJ8V0yV_asI9y2Q=w16383"
+    },
+    {
+      "path": "images/gallery-7-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uDBdyGVNfBm-fzoJLAsV1KH-5udLAGFc1pdo9C_EfujMYc1RDOTcn1a0lS6uD9J55xrWXX6OiMWhG93FsZv8kLXA1TYyX7BI138CedyrRCuE82X0j6VDgwzaV-A2anPUcz7Rx9c7ZzRU39iTGUH2voZBh1R92yY1nQsHz0QpaCRwO0QkYrsVNDzLmBrkA=w16383"
+    },
+    {
+      "path": "images/gallery-7-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ta-ZmfPDEUA022uC69UlG11gFGSHSeK12p-wVVPHII2_YTG2E53-s-YMbgBimTgCX6CseK3_4E-_-pEkhnmJNn6fVUaKi4P9wMmIV6N81ji29AdTnt-xAELzoM_b8JKw1rL1bdNB5Fu01EBVLhHgYBGGRv_tPipVXlBKnpkNPWSiaZ1xDBVVsk3HLVdCo=w16383"
+    },
+    {
+      "path": "images/gallery-8-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vmzfq8FolGLL9P1JuCq5gdnVB5HFGhHYxg82JXdTZuMc7Ob3BjDooG7zRhf0iWmFDL_weabtFJpgG1EikUXQxPwcKZLUd_yuUrcWG67TD_8zoqtNjEmDe-BbQnTZyHr7CusLQtUm1ggo7EC6lCBiPcQst8QJluOzQIvR39Xh9KS40Ht1G28n4j8rj845s=w16383"
+    },
+    {
+      "path": "images/gallery-8-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72shx6EvmlUYexv5iJjuR2wXQbMSQogoGvfpPhC0B-Wtf-x__DQJkw1R2p0ouBVZjY8QRL8mSiabXbfv-2lcPj_0Ej1XK-pwAg5-Fqerx7YpE4wrV6JlEJhVlZ8B48W8GHNCKypc-UgKbMi-NXD6N5TF8VPwoQyuByGNGD_EOoBiiCk_q-3EfnwDs9RzSGA=w16383"
+    },
+    {
+      "path": "images/gallery-9-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v4GdqNm_XpUOmkwfdMXZVyg-TscSaMWFFSPXzATBE0n3RZwfYjFHIIrv8eqikrkRg_FAUmIHY5CNyypZfK_E-RGoBpHxhx5bDwjcjHZeVj8QAozg1iTc0ZJKHzW6HvitaUlkxVcOm1q0tIQcE3xvYRDPBsr1b_glagXPcg8o5JHwvEB6StD2af_txptkw=w16383"
+    },
+    {
+      "path": "images/gallery-9-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vsfcTwRUDFhTAEdD8ljJVSeKz79tvsSPk59lOa1J9Kopa_o-igFAOmPnwEnjaJCL2TUEl3rRsYzOyZgmpu348OlrPehEr2RA8HTucRVNk3Za66NlWNadHAlYcKxZ8ACz_VSb28vwe3huRCXsYzdf4DVfa1OMWyuGMDntT1mJ3mKUN7PtEFB7Ffo3ec_uE=w16383"
+    },
+    {
+      "path": "images/gallery-10-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uYXXiCQiF0uGKCM-2yevgyDL5NZbihOg78_q9bVmPPPWvtiFYS6OykZWRckVHZH6Jg8x4OxFrUo7F7-lp6Vo-btMFqQaNMbgkPvzvXKalTPEvnqQ6NoKNiKySyCa6kk79sL3pxzuTc5cz0P-_R_8ed5-1WNtUMkdZdiy1a0211dDHVgftiGnMfg3be=w16383"
+    },
+    {
+      "path": "images/gallery-10-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sLCky3rDLT9Zg-HMg7Cho1LTg8d1ghTAeUmKaLLWFe2-j9Zvou9dysaJgtqgW9MH_VNhSGHADbLFQEtayFx0J7uxOQl3XyPUzVqWHlckducDdmjdmr_wJWNfy_V88vHe5hnxwKjFS4z3yWRifcVhOThL6Ifvg1vHHH_eUV6v-c_wt4BiQ0P1iXOwT_=w16383"
+    },
+    {
+      "path": "images/gallery-11-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t71pSpsUqYzq3wJz85Zl4auR1AW5raMhdDC97u19E8eiGA8J-393Oh63v9T4KgmVkNl0qG-A2mkgu29tIa58JRBYS5A2Vx8jyIh-sjqGVbVKBha0_fPXqvxa9MIMZDjhehYNoJIu8Vi-N5RPToqIZn5etXp1aiB_DiwO85hWTMFXxrYZFMo2ikyMU2LY8=w16383"
+    },
+    {
+      "path": "images/gallery-11-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sdXE6Aosq21Kz6Pg1oGDRwY4qRQE3OzoN47BDctt6aJw1F8BRg6V2TO_WDk-4_oOOKad_mmDhfpzAK4TLE0v7sp2OE8Qhlzoged8Fx0X8XnBTiSSQShqBL-EDKk-hbiFgpqnFvf28nZqg5cG8pYI2c3PVA0IwqcW7h1AgyK-b7wsDMNwuW3lQWZbVn8UI=w16383"
+    },
+    {
+      "path": "images/gallery-12-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vaiiE3rEYx7u5OvhDHyBAX55UhitoiOVjCVjNzo-WBbCXRI9WiQFeoq5e-e1UfAVePkV7RNP0oFa_lT_BfUXET2Hh5q1egIcIYA2h2eqAhVBc-AXt8nhYe5Olksgqq4HNBuDyjYusueicSSaqndNe60mT5lv5c6wW6dTEzNJRd-dP-QPtr2n97gbcLPO8=w16383"
+    },
+    {
+      "path": "images/gallery-12-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uPbsQa7emTA6hz-vFNjLeiCHVcBjFIIGLZ-fv_6m67k8AimQllV18Uebbo06tYJK1gQ4rqzGjnD2Onxq6qpzWhKTBVYVGVlDZLZnHcXFAqQPgvtrI1PxBXd9xIcn8EynfgpniTq9chbcZ_rnM71Jy_teNFJAp8EYSjcTcdLi2OjI0JWfvl8sM9Mgf60Eg=w16383"
+    },
+    {
+      "path": "images/gallery-13-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uxZ8iSBTqn4D7CtpSLMonWrYow4wiHWz4PDFGY4QN1h7HjH-akPL_Z5PzKQyb2BBDSqBkI34U1xnlWQqUf3uaenzk7aVVUVxof5jMBN3ZXulKzOhMVbUZo_Ii3T00YTvBIm6Z4db-QGqHYKda_NN0p1mIVRVjx0vhssJdO4lFppM0cFzw7RZ3yp31zXgI=w16383"
+    },
+    {
+      "path": "images/gallery-13-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s74rbh6DSim2uH8DDDp2Xc2O6-uzWYE69TAT_ipQBFbUa_YSAefhz2c2EbPLFpU3ooCYZrxDP4Yo2A0G5eTIA_G0l9JXQvTv3Anqc3HMx0kihXjji0lJ5PqT0nYpBJXM7p6gkS6wlt-DE0VP8OdffN52BH1rLGy37shYg8lwsCmsxs_sTcdzLyZYKWctg=w16383"
+    },
+    {
+      "path": "images/gallery-13-3.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sk9OFjbtGjRpb4Fm27Df8fYhvPE6T8ZYSFRcyH6UqZlRDuf1Eg1btLiRhb4fEW5DuavKbvEU0KOpocMQzra7lzFigBGC89p4njMwwGFDNZHmq29zTVINtJixfMs3wd9UL730jDIqsQvt2CfhNd0kDL83RE8FlOLw2EnOKQCRRW8f4dBe9slgbTd-wdeUY=w16383"
+    },
+    {
+      "path": "images/gallery-13-4.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uuCkuqTdqA16wEqB_VKGkOEDPVuQ0QM-wNya42v1wYyBbjit0yK5m9C_Tromk_0Bm0yQdFNfrb12JCSupQCv9zpBAoZbKWh4-vf1phMwFyOBvxu150AYs8VnoENPO8xvCkk-0hB8gZhKdvwEKV7YKDr__UwrGZS6HKw7uex0_cnfO8b50k0SFV8C71=w16383"
+    },
+    {
+      "path": "images/gallery-14-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u__d1YjUJO_6sQ3gzM4v7ri1M50UoWCUaNsm0GmUcch_uweW4C_IS3o_ur6TK49cRDzLpNCsMQp0V80nTtBITInMh9o4R0AerpwEhAPSgQbM9MhVi7JOeXuon_O62jRgxm109v1BDbA2bhWeGKF9yCydbxn_2u97__lSezXouIOkfAzx9sBhiu0g=w16383"
+    },
+    {
+      "path": "images/gallery-14-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tQ1yIvgttQOq9rUB8r7ka0ccjzGuD77Qzyevd5o1fxG9KqfwCYwHxdTr1C0CieEd_vgKsJBRq9h-rwxsoIuKh4yOG5ZBWG-w_2zAwnH_zW8hrs0_i0Asglw-RpvDPnQZuCllJdjjoUFx7X0js8qtnspjzgKr2J9DlRq7F6zDcr0urUmNFxbhqvtZbT=w16383"
+    },
+    {
+      "path": "images/gallery-15-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tWZT6LojfRkwXKja3XmevoLBqrlvpNqwlQ07LJG0n3v8tiDh0BT6Ygx4-RhyJBhF4m_2SNDOIFzSf6-HISp1Dbiv5RbRjWzjj94KRpWmbrt03kJ7N57PfksCjR-g0CSV_WaJ36xFur869aoiiNsUjgZdQyY3it4ZGnPjUESjiuOIaEbgbCivktZHIgNFw=w16383"
+    },
+    {
+      "path": "images/gallery-15-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vo_AhEpjxWmEZE0iXEWx5P31Jbeu4WCNMHXh0mR2eNYg9NygAtf_Q1gNRm_lbsGrrz3XmfbWtH3_6E91J0TDf01O6qTStqqGTIxTD_fgG1dxsCBLzFUif5uKNQY32vJiasdX9w4PXv1SuhPxmbiv6iNO1yXkrEpiWt8nPr8lmYCafl2iWdQ-N6qMk9QbU=w16383"
+    },
+    {
+      "path": "images/gallery-16-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vgNCMPMVslJU_ADVOqGGMTpN3IixBnwghvEhmoq9_89IVvOCSwPSLmr3rKiVhWLn2NhHAnKvvS3j7_beQn5yg7d9FoNfChbf-K_4rqoRHPu5vJDviivNjZc2USiREqrYHl9hK0KzzUCvNaKcwNLtnKGijwFkNKKg_TRO26A0Oo7XfyY7s1PeGoQfOOHPU=w16383"
+    },
+    {
+      "path": "images/gallery-16-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v41Z_mJtgG-aeODMxZUy26rTk2J30ZomUh1tDDpqT5kPu0kXSq64mtLTq9-bFS4gBlNdyHxnYvPpb-2fr-CL-xBAU5d-hH60EnS9tBTRLSb5ft-by33s120yWul-43f8ANsjhWouT8ZgdHin2Z0wt6Rlj2A820niL1Dm0CkuxmGeSu-ppH9OI--Sbm4tI=w16383"
+    },
+    {
+      "path": "images/gallery-17-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sR1goXpy2dU6lGf7ubJWSFz_eBVKrqB-IzjwAmK19t_2DMIW-WcaWNbs6BjoDym2SG1wokQtVaMpeY4WAowrhl-_M4ZoM5r8ytANfg69xl0DU-8mGQImtBuSut8rHgVW1doo81Dbfp7DUpQsoHQxIhLYc3O_BuS97hPNPGhRqt4fLPGEkX5ZVzFDhEOUg=w16383"
+    },
+    {
+      "path": "images/gallery-17-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s6QT92axymXGDqb1Yjrr-9Up-YcRcXURUFr2QLuOc1SBatKY5zvRTUSaO7krtFcu6GUgiYTZ3hfxFzRQoZrNUsRkY5tZycoYkv2WuNWtAA_rNM3ffwQ4hh82AwIp6O8Bkx9Y4vbKyuFr7Um7rb1zRDCqF1mjYtxm-l-AXotHRKNXc2q_PHdeMtqo4fGAM=w16383"
+    },
+    {
+      "path": "images/gallery-18-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t5nCh9sm1p1gOz_5Eqwb0qBb4_Kc8k1_UGQJFZd4ZgkVdW6a_SLz8oyO0bnmxcSG28flnEFJ-VuFsiUuYoCvxO3tLp9ZJQsb4lwf38wd6iDsMmpH-bpSrt0v8nHb35izGwm4u1VdSzdU-OBJdmWDJZGD1QBCpSsSzmPjgO3xYHP9OeteoLGei2LAcye0k=w16383"
+    },
+    {
+      "path": "images/gallery-18-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vsGzqxtyZMtavL8MSp9fzmAmjbmLWlBIXdNr_Oqo9HhwRnUr7vxfqpd6xkHBbeBb3gyzuUPFiYNHFisfc_phwJXRJF5Jfp3T2n9pfoxdyWa6veht7xE8wApcrHY2lFbsbIIWTPS1T6Zz6-OyZ8VO4QI_KGuQOzv9sBybSfByW60c9dKCax8h-QNCgoufQ=w16383"
+    },
+    {
+      "path": "images/gallery-19-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vmt9EFP_4ENMKXKFcyjIvoqOiTQBdtBZPTVF_jZo6AuyPTIKaWmW0lCgMQZj4QyBFErTerpehArlQ_o2K2fu1o2LVFRohpX3vFGsR47CjqcRKQtRFOtlhoEGHutKRxU-XmgaWRdTCwoFgQN3VLi5UYoj1SO3ocNan2-nd2r9RFhysM44NkDQZVgIoUnng=w16383"
+    },
+    {
+      "path": "images/gallery-19-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t1eZAqTKu4J5QeE3onKX2kuwcriVgrSw8l7KV_L53gfdDEsvAdiOHeN32LOI7ufLWbg9ojIO8MofbujS809mf6JX3EsS_gmunUVItOwIlTgvRGoLD__zDk-WWEBTPpAXtuWH9ojukqcSvseXO4bHA3M5LoG9V4IacPDMH2BhPLkZFqdlXr_l-krTZZoAM=w16383"
+    },
+    {
+      "path": "images/gallery-20-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sIVu7uTeOuIc92kLqM5boK4pYwivYkbEgTUh7h6kwCOdbXmRA4OQw9d5qTYzKwW7azMrbzZ8KTAGOXJ272lezYbA1hO9NSd_O57BMZc_NbXhYXaCdRFEQ6b4nh0peqUnhUNvg7Iqy-ON5mg1GZGzNFHbtpaSkt__3TQ1M34FZyQLwWoCYMzohB9Ha3hnI=w16383"
+    },
+    {
+      "path": "images/gallery-20-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ulWkrclL8VGdCSrgT_UKtAKgTFxumJ5Bw6YoayZMoqwZ5S8JYWEzRJG1PXCT294hbulMDINNjCxndjJwdSOoKWAxvHevqJCiFu_eXGFSlbsXrt38GeWbshT6GSGQUCxqHRxYmu_s6frXHckHnhPYAVsYJRT4f0jJN4-OXfKk_3pb82afE5NIHzpsG9a6A=w16383"
+    },
+    {
+      "path": "images/gallery-21-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ul0wh-KsUtppc-EI2ui0MUAAFqIKmfyYCDrOS6QyBUPyhUiEGi7aDMRgWTwJ_Uj-0yATk51ZA9KoUo56gg6s7NmsMjcSWRAxwvW0BmS7V-9MxG7smm82y5vbk2UR8g9qodc3m_qex26B8WN79pvasA_AF0s2_Le5NGyfft9k-JrwNvPL4n6fHZ1D_J5bM=w16383"
+    },
+    {
+      "path": "images/gallery-21-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sS8Ai0YqHdMpr0xAsVgYQShPRhDu_VaPHFdw97hj3dGT8dSr6K1NYI96OKpfJfntvtRpYaem_qErYNiLqV_cI-fhaXvJcIV_08npi0VEV9Ea6tU2L8KxvS-0hsX39Yi2kjMKvx-GR5Wyxy7Hgp3g6n1RQ7tjHq0t2EHbV2uwAhRicNHKAk9hQ9SRBC_iE=w16383"
+    },
+    {
+      "path": "images/gallery-22-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tRCIMXbnRDOTRx9zV1fiajn8SSL5aeFFSpH2M0QN_i6B6mGO69k7Rl_I1yOlN1KYK6XgFUwoFjbcs24OIA2I9rRwdZuHfO6S97ey_5V5DS5QryNkg-m46NeIwn4uf0HCBopskpwJIeg1rGUGB0giDlCy-eM5QVFREuuMBqMnIX1nZkh743MLd2q-XD=w16383"
+    },
+    {
+      "path": "images/gallery-22-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uo-moI-xA8EEWgEgcQu0Ciz6c9FkhVtNSjEhoXb3kf6xKHuMzvlYKxu1EX9OP-ZErz3oozEN7Y9R1qalUNur73XwMvnBLNXsFg4GfdU-AgYwE3Gq5FBH64_Q61KbaS7bB0YUmqJRfwjTxAtZisF8GW2-I3x7zfbRMYzYedD5D5dvaWeOn7oF2SYPULFtU=w16383"
+    },
+    {
+      "path": "images/gallery-23-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t0e9EYn21ecu2-OG8MasU8Xvkdjhs2dUzyuoc6qCWpZeW2s1qprNSPRaoweqohQWeYYdX6IcuoHVrzfqHRUbWLQJ9dPeMG-ocbusij47cqUUUXfsNVOj5FfSViaj3ygnLM3l0HdKIoQjBSbCWfS-PEz5EXTO1WGnB7euMheo6JC6Qc-gUZWO7EkH7t=w16383"
+    },
+    {
+      "path": "images/gallery-23-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u7gx2tdBNpsgBTwDhh-oqXZsQc67Z1Tfw6AswSvyPT33mqmOPNy0-mKBVts_ZiQtSXOGTI5qTfACnQVSLgPVeShuil3S2js3J0DQVl4xOKpgJtXRbFmyKdJJUxn9p2tN2oU-gRdHhWvpgqmAzniWMNZq8_70HAmVVzWY1fRULYUkzIVwdQo_UP7a9uN4Y=w16383"
+    },
+    {
+      "path": "images/gallery-24-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72syO3lSJq4wU8sMGMctndZyOGS0BLqEKU2_jNZiFmzRAOfwAez8PneOg-9Xhkh0b5DDl_qeYMuuiKWkDdOgA9DGMLNRgIRbhqBN-Hs9gGN1w4bSVrPv7T6tgUU_cCRr0_EhYAuT8TSq6RDuyV2USsRz7lx_COHXgl9bbBCbOTNpF1RcF7y5HHMPRfMMfWA=w16383"
+    },
+    {
+      "path": "images/gallery-24-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vso7A4muO_EIzRGMYZQI6W8mEK559evbUfuhnELde-kz5ClZ3DGBubbdJX6NUZEHThTwn0qFXk55h6FjOChv-_RtrifeJ_Y_J7YowzyR-TB739lOl224k7lioUye2bfE85dT5Wbu91S6-xWrLFXEb5D1wsuGbb6tacMKsL72dphcmzlPYlopKNENRYSbo=w16383"
+    },
+    {
+      "path": "images/gallery-25-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tI60FWFHemsbAQwg-R0PhOpcB5EePL-6rCv2Mb0h0qoJM-h5FY60-g1NYdhblcmlXlHjJ9MHrhFRbV8MicmSziLjS34xe6IatRtgzO-RaF0uJKOF9AwlTkQF6ASLvIkkkN71O7rWlweHZwLBOrp8cUldDkhnbYZyCwxH19Jjd7Seh3-N_-QjLWpjyK=w16383"
+    },
+    {
+      "path": "images/gallery-25-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uc5e-GoLHGDlc_cZzPvOzQUvRfjaNRE5Qk4_xvUTdGe3UdASevMDilUdtKUzbjGpLoC73W6fjNQIXzjXdZO3TUWQ1bol9h099KkgLyROZqZJ61L_OKqWSBC7WB62_OcInhz2EJiGOqUxTBILXv6vY6O0qfo2r38WdHshEQP3nCEHKh4MNz1st8Ho_ZPMo=w16383"
+    },
+    {
+      "path": "images/gallery-26-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vjV7B7_6s2HaFsD_9Gaj02vnonHCzwxP1SLfOPs16ZcJobgkntixrBQIVufZxXcrVfRNDIhs-VEmjmgk6jl_GuvSjUyiaMDT5rwJpSkIJPeet7NO3g74z49cXatMnZPMmsq0-qT7Bdqj7yss4NiH6pugOl-Q3P0KHkErQp2xAJl0cHulTFFu6wZHMm=w16383"
+    },
+    {
+      "path": "images/gallery-26-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tibTvBIa82MyQwI5cicZ8HbNgLsPX31LyPSJGBa6J4kWZZGDwLxtA2953vGjygQsvTGSeNZMqdQ0YpHuv-QFOOAUVs-IAjGFPRyoN6liYoi0NUzKJryEx_IBXb-1jV2jDCFSP4OLC9sr1i0RVO3GdWOvxv_5lEh71UZLEap3bQZKSHtG6gZ9xLp_SF=w16383"
+    },
+    {
+      "path": "images/gallery-27-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uY4TE2lzuIM04VJbG3QPek9H28xWHeVfVwCoiQplY674XekbHEkXq-CvEW8y6ySWgjHGlCu59R9hT0o-ifITsFmBqG_xT4kJBsE0E93wnaByvMGQkjTlXmx-n7TGE9FWgIhAuKTyDWyV06gbY4Z1s-bwjQrwlnwYdHQ1mAw62ABU6W49H-Y0p4L2a-jMM=w16383"
+    },
+    {
+      "path": "images/gallery-27-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sRQ8zEU2hp52dvtC9CmltFT4Odc2t6bGPNXpfZb_fotgLlUsfLvRYCFtmcUDD9l5ZlBakvVBJBSxDsN0ZCr_7s5u3tU0kW5sF2XtZRX4r0YhVzs26r0FCnr0jacqQvO8YWsU8ZFAQWuDn21tjZMbNcDyuuz4pQgNZUXM39ZwyP3H5nRS0Arv5XjUd1VV8=w16383"
+    },
+    {
+      "path": "images/gallery-27-3.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vyOkpuTD4BWbqeuEaa4-LbdN-5qY8rmqdve8Tif2FibsQYwlKei5k56CcODITYTAdZ3S0RNpXz4NHaK930bOvnaeJkuf6XIFh69MEk19ki8jIcP27VKk9go_L-wp07PdLz-rzffweaaZRMskjO7KEtwO6jOW4yDbyUcF5Yp_RQOHE_ub_Dmtboe9QLhMM=w16383"
+    },
+    {
+      "path": "images/gallery-28-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72soicr7m8dmHjTZB1FY3XOTMgHlzCgWHBg6EX6Xl-8Fw6FzcKagh4tEdUTXNQY_2JrhAE2JwNs6-zfz21VOqrN6byR6drhTQIH6GqvKUjuMJp6oEau_0NryEdeNjE8sjdS4wlTIjy6YuAfMdNC297D2XbDgCzGqJGcP0x4F6geuQGGuIMwCCawxwSnLPbI=w16383"
+    },
+    {
+      "path": "images/gallery-28-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vHYtvJPZz4kgXrso4ZYPk-XteS8RmT0xP4qVeifzQQrO8ZgM9h45fEIknG37STRGPMYuGVsNkGGowRBTboKGEFbGEIKHAI1r-0EIe8eDN7aU3BqAEPVGKgdx1X9ZMz23bOMKUC4G6ZL_1_0Si1QFUGgHYdpXXOaW8yQ9z_avHM-KF5gl8gC_BPrn2MG0Q=w16383"
+    },
+    {
+      "path": "images/gallery-29-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sti9smRb3UHeXSTLJnvK4flZ4XOqpVPOXEFNpGEPDtHOO1mdg1y67tAvKDqSY0leWgmUrj3Eq9GvfW6PwLjQcz04Ugla83P6lvdU8Wuf9cHPC9qmKARHy2SvvxmitBHMruQOxXahUiWNLo4AwqMnOlIfEqTQZTrB_ZLlnQEths1x6YIb7EFIPRFUhdqsc=w16383"
+    },
+    {
+      "path": "images/gallery-29-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vuFX1k72vZDQb3m4jZxhGqZX83iaQOLSdVk2zBKArNeOk_gSc4eAwdNI_vxlH6tTv7idV2PtkIWOwP2lpJTzxZLWScYe607wnZQIfmAhTRhHNyMP0tHuayjP8XTKlxsNO_QJ6vpQZCSGKgmIzYWA1VX53kBjwDEJHWbRJuvM7M7H87lNyv-ZKu2g=w16383"
+    },
+    {
+      "path": "images/gallery-30-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72saRJWFyXP0q_vklXPdddAkZNTO0dsIQ-grY-gBCPOX-j25wAQkAza-AG-Y1UfZcsxAxXGMt4f0ECeMYMe6rijxCKKcmR7DNVU_SHrxMYURdICbhPBv-k3XYmpHIvlNnj4Tj2BBr6xEYWebEGfXGolIZhe5Kr3g8E8AtwsBtUv4H7NXxu6uagYATk1kN-w=w16383"
+    },
+    {
+      "path": "images/gallery-30-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sTrMnAq1JbrM_jpnIvF1xS4qS59O235Fj-UNeKMs0Xnsc2IYEV7Kj2pV3QPWguVEUWNnnJE7JO39iDunK6VcvvuYvYErshcqpYxT2X3bcHXdaiosq5CYlqLMfhVDl8jPtJ3ClBsw8oT_kU3nVI0bu7x37071TiI5yHjzO_G26zjVgXQ768SuPzCdy5FlE=w16383"
+    },
+    {
+      "path": "images/gallery-31-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uRR2cGk8PtdjtEwFpODBHB8WUJIWoekpPlfyItrr-LWmsO1fAR0zkUnuqbtuS67BENKAE-d5Ay7Asa-w1AFUfB1ZeLMIrIMHGii_L27Q1AVG6cN1vepkpklTXf3w5hEn1jXTuANsCKkBJeeoNWOB3r4hHqihpywBooAhc1vshODdGZRP9XT9icgVxz=w16383"
+    },
+    {
+      "path": "images/gallery-31-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tCe3MUbSCOg0rVGYc8l1N45xs911pn028UpSJNkJTzfcsmSNxZCQYmikn4bmal6puGJSZJ2MNA02t1ucW9CZnhM7SpXdt9vcYgS1NGP6ZoxPukGoO02wUTw8LgDOdFFxfW0r4oqFYXncCRRzzbMiOOHy87FoU2uQUaGeqqjkaXDQ968Teerm7ThXVQbic=w16383"
+    },
+    {
+      "path": "images/gallery-32-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72snG4UsazwzGKjAw_SZblXJv09Epid0YJQ3mnywX1gNWIVxVCH2MSvCOQEDyC2OhSmMmOhZIzuH1LV3ZqaqYnT9HFgJ_iwlOqLQaEs9yaI0ltjU98CyzYLgjIFCMEVgcU5WmKPr_QMRG88X9scqAb4eAYZ4BwLeeJTtPpMqpevBLL2kttIKXYKfj1wqF4U=w16383"
+    },
+    {
+      "path": "images/gallery-32-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tKpv0AC7j8BliKT7XCfPdRQZ71t4ZCkn60FUKdJhwDiizvXhEcu7gJvsO-sO8hBfNgDXiQUiebD3MhrBd5n0rBkw4_HJYDv_en7sbsX6pQlsUO2RmkGDEuSN9g2h4ZylgxHti922kNghEfOUwKuEMIpyOXxDvInGQmtcUHY4rtuFkLE3ELjlbnjWH5=w16383"
+    },
+    {
+      "path": "images/gallery-32-3.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u29MDiwSiTR0sBj_qSjHwDpkrlG-HbhPIv8YeZTItTjAEaUT5_9SYJE7yneBLS9Z51QEJRelQ8mfvqiFQI-x5p7diJeFu6-x6-mJ847ASES74Mm0I_ISjQbtEziADN0zvRFGH04WyKO6Oy51fdrSp_ojcAYtopCUqULl7L6x2y5a4sPro9MlVv-Ukf3ZY=w16383"
+    },
+    {
+      "path": "images/gallery-32-4.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v7H7Nq52pOlfJi9m4YJlYIp-fso_ahO_CkHROHW2amP3KAAnBu4r7E4Zd17Njl2_Omvvv0s6GufgNsx72nu10X-CaJ3Umii1ErzCUGAjRufK8MmQaHIILIq7SiRUR-57MjQfV4TK7clbx1nirv3HTh7kTycP1Jw6mqnWhUMOy9Xnsmm3AZy3nS0YN28Fo=w16383"
+    },
+    {
+      "path": "images/gallery-33-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tF3T-APNZvwokTUHGBdyFWG2VbtLKytR9Zj6TAEU2Bg-Iv4oJdWYkcGSAsaSXF1ueZuGAAk_FMkj3gxinfa_8WN-YONZ9kksD4Lb5ka-awMGOARKLyOvcPVHEMZzoGEnVFc_Vvn8spy0GAH6LeGaJrcDrcSzqhIL0ekNLAvUpRb4uFIpL90amkc3dL=w16383"
+    },
+    {
+      "path": "images/gallery-33-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uLdJPDmI2mhYVKx_YUuD_BWXWJ0xhjOTE-D1SyZQZ4tU0rc0ltjya-sVNGvzafYkxTpeltm-sBeSdo8x_hTv2C__rYPDx1oK4dxYTR-PJqCHOV1aOpkBDNjGUubTi5L6UFlrcPbM4T1y4q3RJS5hXerU6FSP4Q8EyTK_wQ6HE27PVuQJA0ft8KLXkKaNM=w16383"
+    },
+    {
+      "path": "images/gallery-34-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v7rWvnVGzbSdhdUdaUMtK45O0La3pEEBXG1aq59bvJEXeuajW485RQDGWSQ6CRDxTz-6yqJO_JenCJP9RqC7ojOpflYHhqIVJ-blIfy0uClmwGkz4TZWW1EM39vLSDUeWlhXkLFUGwz4dEVZLii3IcSEJ5mRzcc8j964sEvxHP0s4Vk-GzcKvWzW-Z8A4=w16383"
+    },
+    {
+      "path": "images/gallery-34-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72siNmqNJto59GQJC-aQXAut828KKUWcLLjapmnsCQGfixY3Y4BbrwEcmhhS11d9mLi8IY599dV47e02M07P-66aeYNnbTY1oOP6rZ7Z4y-eJq0wj2WsVxIID-n4czHp6f-m-41THP0HeZ0AkY9E4Fz6G8i8dJ1MU3sOtILOHqtI_cy3jGQn4fogvIfsdnw=w16383"
+    },
+    {
+      "path": "images/gallery-35-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t-dAteL_7psvOaoWif2IcyJL4y7Ok3-KY2cVNGzYbCb1NPmmsbwVYw3r9-tw6ASue8qBncHBYh165-V2NUHlJ7XSq0-PBP--jEfyJWo0o4l18dQP_8cf6JQcg_LGzRTU4rbJClzPAA6RldviORv7WtBNXyH4yvFbi8FfiZwsgyzwHq6KiwBjmPZepNdAk=w16383"
+    },
+    {
+      "path": "images/gallery-35-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sWgLCY0qX9olnofSqJBwC0D4eJ7LM2EAO_W2fjtxkwZPhCNkMNvrHJ9emZzLU5OZCriBMaN3nViwH37qZ2r5L8oxwwHY8g2u3DVf_sIy8KgyYQ7-nSEYcIy6pUzGRqAMv10kr00oYCnFIgk1WJNW32PASQufQjiX5H1Dr8fIBbGNS3NnubRLLtKAx9=w16383"
+    },
+    {
+      "path": "images/gallery-35-3.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tAvuPsp58dUdu2qw1lPRA59vEbSURkM75H_1MrzOWmnlcskRcj_Sxkk3xzN4gh1h46M_pIxexn4kMu0CXitLWuMPyWA8ZWInUc8Jl1VKfOEBjmLiLpsMIjo3L2y98bx7m44p4vgAT74IKLlVXlNB68z0F8ORtKzBtJFZpDMPKLXKrZHp2NFzz2UQ=w16383"
+    },
+    {
+      "path": "images/gallery-36-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sumWxi6fC-VMCN8EvxLJyxd-IcBTfihlNzWYy87NtQyGkll6QpGxCMcWNZfK7A8GkTNe9maFL9T3vShcQ4VnBrVt9QofKcIlrUA3Cf83q6T1iZyzSPDKaKk4oeAKgqEJ2m7SdoE7xuzO7FhRaiCS7TuSmKth-eNmoSD1-268O4IOPA_SS0VkbIl4pLJDs=w16383"
+    },
+    {
+      "path": "images/gallery-36-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tKX5kPSMSimkVnACXwJIGS7EXWNQzDukZsSYHLEZ523k94PJkeOTV5tdQtpUaoCbAVAjukr9E3PqQi0YRsAGjhQUOKp-RpfI3ooGrmLkl7zxqCWIYAQyI9w5vmgGf2PJDefi9-ACTtUK-zcszYGrqNvIWjFRccw3aBJYRsEQuqPCs3mdq8aInLQ8fd=w16383"
+    },
+    {
+      "path": "images/gallery-37-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vVV6IL9LUWDwc0uhPWnAy__F88q3EPP-Ie8CLS4dVQ4M2EkQVEN9wiJnbhhmhBslSZlR6VBjekZyYpvf8ZLCYc_f3OTYflWjNVKSHeH5-qXA_2HvjahQlCW8LZOlSpitIW91ChnsyD-wni7-kiNgqZ2xNEhgv3603mrEIBJ0eF_QBDo25y5nh5r92VIrc=w16383"
+    },
+    {
+      "path": "images/gallery-37-2.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sdgQWgjJx82iQt5EDogW6VZTBJmnRWUn9371DXNukADos1mlA0fm0WsFk4OKCwWSgsgFXkkh86yAqenLBapRYMrj-wz2Yqv5Csib-Cepb4V15ERj7Oc4Muiblw_a_gVRFk7YOarAMUjFQvEwRi0fRGs3bPdzReEO3yYXC4WATIWvWxtwq37R8OKpnoeYM=w16383"
+    },
+    {
+      "path": "images/gallery-38-1.jpg",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t7C5KeXF7qzklzOAU2zwXv__iIBkqlcaf3CkrDdF_RHKGh-exWFhGG0yRnp185t1hGb4Ml2B2q3U3fsS4-B04BZBbc96FnpHcbgZL85NRf9epHW1Cte9HfZzyHpxHeZBzuEcwKSmQF2PTaJUhCRgNRCdAI1Y7iE9De-xxJQW27cKK2UDmeAF-9bCzXC7Y=w16383"
+    },
+    {
+      "path": "images/gallery-38-2.png",
+      "sourcePage": "https://mcas.uos.ac.kr/gallery",
+      "originalUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vaAkSIX-oKE1WVjthLKcZBJ0OIMAFb0K-rU_I-TS4J9XW7Pw2P4q-DXQ5hfba_VoHFUFQl6brmTDSyOOt5QVkFdB5PdEGrKUkF9L_k95M31hisTsZEkwQCDdd0h2bA8HefmUX8RKhAbEJ7HdS-GSe8lMIAIbKnUjF-Ifm9OVo4EfUFDw8OX6yEHwbk=w16383"
+    },
+    {
+      "path": "images/brand/mcas-white.png",
+      "sourceArchive": "User-provided PNG (1).zip",
+      "originalFilename": "PNG-07.png",
+      "description": "White logo for dark backgrounds; original PNG copied without pixel edits.",
+      "sha256": "e922d37e081c820c124c23494e26dc258d7050e0e428db0f076a8ba45d80f199"
+    },
+    {
+      "path": "images/brand/mcas-navy.png",
+      "sourceArchive": "User-provided PNG (1).zip",
+      "originalFilename": "PNG-02.png",
+      "description": "Navy and cyan logo for light backgrounds; original PNG copied without pixel edits.",
+      "sha256": "0df52ee3d6a32c8dcd0956827e73af132a5f031453047691ae159c4ddb274d17"
+    }
+  ]
+}

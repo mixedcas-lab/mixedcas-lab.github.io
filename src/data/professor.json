@@ -1,0 +1,70 @@
+{
+  "name": "Min-Jae Seo",
+  "suffix": "Ph.D.",
+  "role": "Associate Professor",
+  "image": "images/professor.jpg",
+  "email": "mjseo@uos.ac.kr",
+  "source": "https://mcas.uos.ac.kr/member/professor",
+  "education": [
+    {
+      "period": "2015.09 — 2019.03",
+      "title": "Ph.D. in Electrical Engineering",
+      "institution": "KAIST",
+      "note": "Academic advisor: Seung-Tak Ryu"
+    },
+    {
+      "period": "2013.09 — 2015.08",
+      "title": "M.S. in Electrical Engineering",
+      "institution": "KAIST",
+      "note": "Academic advisor: Seung-Tak Ryu"
+    },
+    {
+      "period": "2007.03 — 2013.02",
+      "title": "B.S. in Electronic Engineering",
+      "institution": "Hanyang University",
+      "note": "Summa cum laude"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2026.03 — Present",
+      "title": "Associate Professor",
+      "institution": "School of Advanced Fusion Studies, University of Seoul"
+    },
+    {
+      "period": "2024.03 — 2026.02",
+      "title": "Assistant Professor",
+      "institution": "School of Advanced Fusion Studies, University of Seoul"
+    },
+    {
+      "period": "2022.03 — 2024.02",
+      "title": "Assistant Professor",
+      "institution": "Department of Electronic Engineering, Gachon University"
+    },
+    {
+      "period": "2019.04 — 2022.02",
+      "title": "Staff Engineer",
+      "institution": "Flash Memory Design Team, Memory Business, Samsung Electronics"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2019",
+      "title": "Kim Choong-Ki Award",
+      "detail": "EE Top Research Achievement Award, KAIST"
+    },
+    {
+      "year": "2018",
+      "title": "The Special Enterprise Award",
+      "detail": "Korea Semiconductor Design Competition, KSIA"
+    }
+  ],
+  "activities": [
+    "IEEE A-SSCC TPC Member",
+    "IEEE SSCL Guest Editor",
+    "Member, Institute of Electrical and Electronics Engineers (IEEE)",
+    "Member, Institute of Semiconductor Engineers (ISE)",
+    "Participating Professor, IC Design Education Center (IDEC)",
+    "Technical reviewer: IEEE JSSC, TCAS-I, TCAS-II, IEEE Sensors Journal, IEEE Access"
+  ]
+}

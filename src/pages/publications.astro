@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import Paper from '../components/Paper.astro';
+import papers from '../data/publications.json';
+import patents from '../data/patents.json';
+const years=[...new Set(papers.map(p=>p.year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a));
+---
+<Layout title="Publications" dark><PageHeading label="Publications / Journals & conferences" title="Ideas, measured and shared." description="Journal articles, conference papers and manuscripts from our research archive. * indicates corresponding authorship." />
+  <section class="section"><div class="container"><form class="filters" role="search" id="paper-filters"><label>Search publications<input id="paper-search" type="search" placeholder="Title, author or venue…" aria-label="Search publications" /></label><label>Year<select id="paper-year"><option value="all">All years</option>{years.map(y=><option value={String(y)}>{y}</option>)}<option value="unknown">Not specified</option></select></label><label>Type<select id="paper-kind"><option value="all">All publications</option><option>Journal</option><option>Conference</option></select></label></form><p class="result-count" id="paper-count" aria-live="polite">{papers.length} publications & manuscripts</p><div id="paper-list">{papers.map(paper=><Paper paper={paper} />)}</div><p class="empty-state" id="paper-empty" hidden>No matching publications. Try another title, author or year.</p><noscript><p>All publications are shown. Enable JavaScript to use search and filters.</p></noscript>
+  <section class="subsection" id="patents"><span class="eyebrow">Intellectual property</span><h2 style="margin-top:15px">Patents.</h2><div class="patent-grid">{patents.map(p=><article class="patent"><h3>{p.title}</h3>{p.details.map(d=><p>{d}</p>)}</article>)}</div></section></div></section>
+</Layout>

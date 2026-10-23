@@ -1,0 +1,65 @@
+Patent
+Search this site
+Embedded Files
+Skip to main content
+Skip to navigation
+Patent
+202
+2
+-2020
+"Multi-Hole 구조의 WL Cut 위치에 따른 WL Rs Skew 개선 방안”
+Applied KR Patent @ Sam
+sung
+,
+P20210128950
+"
+Multi-Hole 구조에서 SSL Prepulse 시간단축을 위한 SSL Neg. Disch. Control 방법
+”
+Applied KR Patent @ Samsung
+,
+P20200144152
+"
+메모리회로에서 Word-line Leakage 전류 검출 방법
+”
+Applied KR Patent @ Samsung
+,
+P20190023386
+"ELECTRONIC CIRCUIT FOR IMPLEMENTING MODULATOR CONFIGURED TO PERFORM NOISE SHAPING IN DIGITAL DOMAINANALOG TO DIGITAL CONVERTER”
+Registered Taiwan Patent
+,
+I737916, 2021.09.01
+류승탁, 장일훈,
+서민재
+, 김미영, 이재근, 백승엽, 최병주, 고형종
+"ANALOG TO DIGITAL CONVERTER”
+Registered US Patent
+,
+10,931,298, 2021.02.23
+류승탁,
+서민재
+, 김종팔
+"ELECTRONIC CIRCUIT INCLUDING PIPELINE CONVERTING CIRCUIT”
+Registered US Patent
+,
+10,873,337, 2020.12.22
+류승탁,
+서민재
+"ANALOG-TO-DIGITAL CONVERTER (ADC) WITH RESET SKIPPING OPERATION AND ANALOG-TO-DIGITAL CONVERSION METHOD”
+Registered US Patent
+,
+10,680,636, 2020.06.09
+김종팔, 김예담, 류승탁,
+서민재
+, 진동환
+"파이프라인 변환 회로를 포함하는 전자회로”
+Registered KR Patent
+,
+10-2116669-0000,
+2020.05.25
+.
+류승탁,
+서민재
+Google Sites
+Report abuse
+Google Sites
+Report abuse

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Jiwon Seo",
+    "email": "jiwonseo1@uos.ac.kr",
+    "research": "NAND readout circuits",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-1.jpg",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Hyeonwoo Kim",
+    "email": "noais2004@uos.ac.kr",
+    "research": "High-speed ADC design",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-2.jpg",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Inho Jang",
+    "email": "inho1638@uos.ac.kr",
+    "research": "High-resolution ADC design",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-3.png",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Jaeyoon Lee",
+    "email": "jaeyoonlee@uos.ac.kr",
+    "research": "High-speed ADC design",
+    "role": "Lab representative",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-4.png",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Hyeongjun Kim",
+    "email": "kpoo917@uos.ac.kr",
+    "research": "High-speed ADC design",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-5.jpg",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Seungbin Lee",
+    "email": "lsb0522@uos.ac.kr",
+    "research": "High-speed ADC design",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-6.jpg",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Uhnsuk Lee",
+    "email": "uhnsuk15@uos.ac.kr",
+    "research": "Research topic to be determined",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-7.jpg",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Junseong Kim",
+    "email": "kjack0219@uos.ac.kr",
+    "research": "Research topic to be determined",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-8.png",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  },
+  {
+    "name": "Junho Park",
+    "email": "wnsqh4599@naver.com",
+    "research": "Research topic to be determined",
+    "role": "Graduate researcher",
+    "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
+    "image": "images/member-9.jpg",
+    "source": "https://mcas.uos.ac.kr/member/student"
+  }
+]

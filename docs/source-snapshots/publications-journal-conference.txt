@@ -1,0 +1,200 @@
+Journal & Conference
+Search this site
+Embedded Files
+Skip to main content
+Skip to navigation
+Journal & Conference
+* Corresponding Authorship
+Journals
+"A 0.2-mW 250-kHz-BW Fully Dynamic kT/C Noise-Shaping Discrete-Time Delta-Sigma Modulator with SAR-Assisted Input Feedforward and Digital Noise Coupling", Y.-H. Moon, K.-W. Park, Krishnakanth R, K. Kim, M. Kwon,
+M.-J. Seo*
+, and S.-T. Ryu*,
+IEEE J. Solid-State Circuits
+, accepted for publication, 2026.
+"GRID: A Graph RL and gm/ID-Based Framework for Fast and Transferable Analog Circuit Optimization", Jiwon Seo, Jaeyoon Lee, Heejun Kang, and
+Min-Jae Seo*
+,
+Journal of Semiconductor Technology and Science(JSTS)
+, 2026.
+"6-bit 28GS/s High Speed DAC”,
+TBA,
+M.-J. Seo*
+,
+IEEE Trans. Circuits Syst. I Regul. Pap., in review
+.
+"
+MoS2 Channel-Enhanced High-Density Charge Trap Flash Memory and Machine Learning-Assisted Sensing Methodologies for Memory-Centric Computing Systems
+"
+,
+K.-H. Kim, J.-H. Park#, K.-J. Lee#, J.-W. Seo, Y.-K. Kim, J.-H. Choi,
+M.-J. Seo*
+, and B.-C. Jang*
+,
+Advanced Science 2501926 (2025)
+"
+An M-metric Readout Circuit for MLC Phase Change Memory with a Comparator-Based Push-Pull Bit-Line Driver
+”, J.-W. Kwon, D.-H. Jin,
+M.-J. Seo*
+, and S.-T. Ryu*,
+IEEE Trans. Circuits Syst. II Express Briefs, vol. 71, no. 11, pp. 4658-4662, Nov. 2024.
+"
+A 1.5-MHz BW 81.2-dB SNDR Dual-Residue Pipeline ADC With a Fully Dynamic Noise-Shaping Interpolating-SAR ADC
+”, J.-H. Chung, Y.-D. Kim, C.-U. Park
+, K
+.-W. Park, D.-R. Oh,
+M.-J. Seo*
+, and S.-T. Ryu*,
+IEEE J. Solid-State Circuits
+, vol.
+59, no. 8, pp. 2481–2491, Aug. 2024.
+"
+Amorphous ITZO-Based Selector Device for Memristor Crossbar Array
+”, K.-H. Kim
+,
+M.-J. Seo*
+, and B.-C. Jang,
+MDPI Micromachines
+, vol. 14, no. 3, Feb. 2023.
+"
+A 7-bit Two-Step Flash ADC With Sample-and-Hold Sharing Technique
+”,
+D.-R. Oh,
+M.-J. Seo
+, and S.-T. Ryu,
+IEEE J. Solid-State Circuits
+, vol. 57, no. 9, pp. 2791-2801, Sept. 2022.
+"A Single-Amplifier Dual-Residue Pipelined-SAR ADC”,
+M.-J. Seo*
+,
+MDPI Electronics
+, vol. 10, no. 4, pp. 421, Feb. 2021.
+“A Single-Supply CDAC-Based Buffer-Embedding SAR ADC With Skip-Reset Scheme Having Inherent Chopping Capability” (
+Invited
+),
+M.-J. Seo
+, D Jin, Y Kim, J Kim, and S.-T. Ryu,
+IEEE J. Solid-State Circuits
+, vol. 55, no. 10, pp. 2660–2669, Oct. 2020.
+“A 40-nm CMOS 7-b 32-GS/s SAR ADC With Background Channel Mismatch Calibration”, D.-S. Jo, B.-R.-S. Sung,
+M.-J. Seo
+, W.-C. Kim, and S.-T. Ryu,
+IEEE Trans. Circuits Syst. II Express Briefs
+, vol. 67, no. 4, pp. 610–614, Apr. 2020.
+“A Reference-Free Temperature-Dependency-Compensating Readout Scheme for Phase-Change Memory Using Flash-ADC-Configured Sense Amplifiers”, D.-H. Jin, J.-W. Kwon,
+M.-J. Seo
+, M.-Y. Kim, M.-C. Shin, S.-J. Kang, J.-H. Yoon, T.-S. Kim, and S.-T. Ryu,
+IEEE J. Solid-State Circuits
+, vol. 54, no. 6, pp. 1812–1823, Jun. 2019.
+“A Reusable Code-based SAR ADC Design with CDAC Compiler and Synthesizable Analog Building Blocks”,
+M.-J. Seo
+, Y.-J. Roh, D.-J. Chang, W. Kim, Y.-D. Kim, and S.-T. Ryu,
+IEEE Trans. Circuits Syst. II Express Briefs.
+, vol. 65, no. 12, pp. 1904-1908, Dec. 2018.
+“A 18.5 nW 12-bit 1-kS/s Reset-Energy Saving SAR ADC for Bio-Signal Acquisition in 0.18-μm CMOS”,
+M.-J. Seo
+, D.-H. Jin, Y.-D. Kim, S.-I. Hwang, J.-P. Kim, and S.-T. Ryu,
+IEEE Trans. Circuits Syst. I Regul. Pap.
+, vol. 65, no. 11, pp. 3617-3627, Nov. 2018.
+“A 65-nm CMOS 6-Bit 20 GS/s Time-Interleaved DAC with Full-Binary Sub-DACs”, S. N. Kim, W. C. Kim,
+M.-J. Seo
+, and S. T. Ryu,
+IEEE Trans. Circuits Syst. II Express Briefs
+, vol. 65, no. 9, pp. 1154–1158, Sep. 2018.
+“A 4.2- mW 10-MHz BW 74.4-dB SNDR Continuous-Time Delta-Sigma Modulator With SAR-Assisted Digital-Domain Noise Coupling”, I.-H. Jang,
+M.-J. Seo
+, S.-H. Cho, J.-K. Lee, S.-Y. Baek, S. Kwon, M. Choi, H.-J. Ko, and S.-T. Ryu,
+IEEE J. Solid-State Circuits
+, vol. 53, no. 4, pp. 1139–1148, Apr. 2018.
+“A 65 nm 0.08-to-680 MHz Low-Power Synthesizable MDLL With Nested-Delay Cell and Background Static Phase Offset Calibration”, D. Chang,
+M.-J. Seo
+, H. Hong, and S.-T. Ryu,
+IEEE Trans. Circuits Syst. II Express Briefs
+, vol. 65, no. 3, pp. 281–285, Mar. 2018
+“A 2.7-M Pixels 64-mW CMOS Image Sensor with Multicolumn-Parallel Noise-Shaping SAR ADCs”, S. I. Hwang, J. H. Chung, H. J. Kim, I. H. Jang,
+M.-J. Seo
+, S. H. Cho, H. Kang, M. Kwon, and S. T. Ryu,
+IEEE Trans. Electron Devices
+, vol. 65, no. 3, pp. 1119–1126, Mar. 2018.
+“Normalized-Full-Scale-Referencing Digital-Domain Linearity Calibration for SAR ADC”, D.-J. Chang, W. Kim,
+M.-J. Seo
+, H.-K. Hong, and S.-T. Ryu,
+IEEE Trans. Circuits Syst. I Regul. Pap.
+, vol. 64, no. 2, pp. 322–332, Feb. 2017.
+“A 0.6 V 12 b 10 MS/s Low-Noise Asynchronous SAR-Assisted Time-Interleaved SAR (SATI-SAR) ADC”, W. Kim, H. Hong, Y. Roh, H. Kang, S. Hwang, D. Jo, D. Chang,
+M.-J. Seo
+, and S. Ryu,
+IEEE J. Solid-State Circuits
+, vol. 51, no. 8, pp. 1826–1839, Aug. 2016.
+Conferences
+"
+12mW 7.8 Gb/s NRZ/PAM-4 Dual-Mode Digital Spectrum Shaping Signaling Transmitter for Multidrop Interfaces in 28 nm CMOS
+”,
+D. Kim, Y. Choi, S. Jang, E. Lee, K. Gharibdoust, A. Tajalli, F. Akbar, J. Chae,
+Min-Jae
+Seo
+, K. Lee, G. Kim
+,
+2026 European Solid-State Electronics Research Conference
+(
+ESSERC
+), Sep. 202
+6
+.
+"A 250kHz-BW 86.2dB-SNDR 176.7dB-FoMS Fully Dynamic kT/C Noise-Canceled DT DSM with SAR-Assisted Input FF and DNC”
+,
+Young-Hun Moon, Kun-Woo Park, Kyunghoon Kim, Minho Kwon,
+Min-Jae Seo*
+, and Seung-Tak Ryu*
+,
+IEEE Asian Conference on Solid-State Circuits (ASSCC), Nov. 2025.
+"A 184-dB-FoMS 25-kHz-BW 98.6-dB-SNDR Fully Dynamic Discrete-Time Delta-Sigma Modulator with Digital Noise Coupling”
+,
+Young-Hun Moon, Kun-Woo Park, Kwan-Hoon Song, Kent Edrian Lozada,
+Min-Jae Seo*
+, and Seung-Tak Ryu
+*
+,
+IEEE International Midwest Symposium on Circuits and Systems
+, Aus. 2025.
+"A 100kHz-BW 99dB-DR Continuous-Time Tracking-Zoom Incremental ADC with Residue-Gain Switching and Digital NC-FF”, Ye-Dam Kim, Jae-Hyun Chung, Kent Edrian Lozada, Chang-Un Park, Kun-Woo Park, Kwan-Hoon Song, Young-Hun Moon,
+Min-Jae Seo*
+, and Seung-Tak Ryu*,
+IEEE Symposium on VLSI Technology and Circuits
+, Jun. 2024.
+"An 81.2dB-SNDR Dual-Residue Pipeline ADC with a 2nd-Order Noise-Shaping Interpolating SAR ADC”, J.-H. Chung, Y.-D. Kim, C.-U. Park
+, K
+.-W. Park, D.-R. Oh,
+M.-J. Seo*
+, and S.-T. Ryu*,
+IEEE Custom Integrated Circuits Conference (CICC)
+, Apr. 2023.
+"A 10 nV/rt Hz noise level 32-channel neural impedance sensing ASIC for local activation imaging on nerve section”,
+J.P. Kim, W. Lee, J. Suh, H. Lee, K. Lee, H.Y. Ahn,
+M.-J. Seo
+, S.-T. Ryu, K. Aristovich, D. Holder, S.J. Kim,
+IEEE International Engineering in Medicine and Biology Conference (EMBC)
+, Jul. 2020.
+“A Single-Supply Buffer-Embedding SAR ADC with Skip-Reset having Inherent Chopping Capability”,
+M.-J. Seo
+, D Jin, Y Kim, J Kim, D Chang, W Lim, J Chung, C Park, E Ahn and S.-T. Ryu,
+IEEE Asian Conference on Solid-State Circuits (ASSCC)
+, Nov. 2019.
+“A 40nm CMOS 12b 200MS/s Single-amplifier Dual-residue Pipelined-SAR ADC”,
+M.-J. Seo
+, Y.-D. Kim, J.-H. Chung, and S.-T. Ryu,
+IEEE Symposium on VLSI Circuits (VLSI-C)
+, Jun. 2019.
+“A 4.2mW 10MHz BW 74.4dB SNDR fourth-order CT DSM with second-order digital noise coupling utilizing an 8b SAR ADC”, I.-H Jang,
+M.-J. Seo
+, M. Kim, J. Lee, S. Baek, S. Kwon, M. Choi, H. Ko, and S. Ryu,
+IEEE Symposium on VLSI Circuits (VLSI-C)
+, Jun. 2017.
+“A 6-bit 10-GS/s 63-mW 4x TI time-domain interpolating flash ADC in 65-nm CMOS”, D.-R. Oh, J.-I. Kim,
+M.-J. Seo
+, J.-G. Kim, and S.-T. Ryu,
+IEEE European Solid-State Circuits Conference (ESSCIRC)
+, Oct. 2015.
+Google Sites
+Report abuse
+Google Sites
+Report abuse

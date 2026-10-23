@@ -1,0 +1,47 @@
+[
+  {
+    "id": "data-converters",
+    "title": "Data converters",
+    "originalTitle": "Mixed-Signal Integrated Circuit Design — Data Converters",
+    "subtitle": "혼성신호 집적회로와 데이터 변환기",
+    "description": "Mixed-signal integrated circuits connecting analog signals and digital systems.",
+    "tag": "ADC / DAC",
+    "source": "https://mcas.uos.ac.kr/research"
+  },
+  {
+    "id": "synthesizable-analog",
+    "title": "Synthesizable analog",
+    "originalTitle": "Synthesizable Analog Circuit & Analog-to-Digital Converter (ADC)",
+    "subtitle": "합성 가능한 아날로그 회로",
+    "description": "Analog circuits and ADCs with reusable, synthesizable building blocks.",
+    "tag": "DESIGN AUTOMATION",
+    "source": "https://mcas.uos.ac.kr/research"
+  },
+  {
+    "id": "biomedical",
+    "title": "Biomedical interfaces",
+    "originalTitle": "Low-power Successive-approximation-register (SAR) ADC for Bio-medical Monitoring System",
+    "subtitle": "생체 신호를 위한 저전력 회로",
+    "description": "Low-power SAR ADCs for biomedical monitoring and signal acquisition.",
+    "tag": "LOW-POWER SENSING",
+    "source": "https://mcas.uos.ac.kr/research"
+  },
+  {
+    "id": "high-speed",
+    "title": "High-speed conversion",
+    "originalTitle": "Ultra-High-Speed A/D Conversion Systems for 5G & Future Communication System",
+    "subtitle": "차세대 통신을 위한 초고속 변환",
+    "description": "Ultra-high-speed analog-to-digital conversion for next-generation communication systems.",
+    "tag": "HIGH-SPEED LINKS",
+    "source": "https://mcas.uos.ac.kr/research"
+  },
+  {
+    "id": "edge-intelligence",
+    "title": "Mixed-mode intelligence",
+    "originalTitle": "Energy-Efficient Mixed-mode Deep Neural Network (DNN) Accelerators for Edge-computing",
+    "subtitle": "엣지 컴퓨팅을 위한 혼성모드 연산",
+    "description": "Energy-efficient mixed-mode DNN accelerators for edge-computing applications.",
+    "tag": "EDGE COMPUTING",
+    "source": "https://mcas.uos.ac.kr/research"
+  }
+]

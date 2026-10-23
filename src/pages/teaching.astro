@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import teaching from '../data/teaching.json';
+---
+<Layout title="Teaching" dark><PageHeading label="Teaching / Course archive" title="Sharing the fundamentals." description="Courses and lectures in integrated circuits, digital systems and data-converter design." /><section class="section"><div class="container">{teaching.map(t=><article class="teaching-term"><h2>{t.term}</h2><ul>{t.courses.map(c=><li>{c}</li>)}</ul></article>)}</div></section></Layout>

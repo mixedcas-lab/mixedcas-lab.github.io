@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import site from '../data/site.json';
+---
+<Layout title="Join & Contact" dark><PageHeading label="Join / Contact" title="Let’s make the next connection." description="Interested in mixed-signal circuits and systems? We would love to hear from you." />
+  <section class="section"><div class="container contact-grid"><div><h2>Join MCAS Lab.</h2><p lang="ko">{site.recruiting}</p><p style="margin-top:20px">We are looking for highly motivated M.S. and Ph.D. students with an interest in mixed-signal integrated circuits and systems.</p><dl class="contact-details"><div class="contact-item"><dt>Email</dt><dd><a href={`mailto:${site.email}`}>{site.email} ↗</a></dd></div><div class="contact-item"><dt>Professor’s office</dt><dd><a href={`tel:${site.phone}`}>{site.phone}</a></dd></div><div class="contact-item"><dt>Visit</dt><dd>{site.address}</dd></div></dl></div><div class="contact-art"><span class="eyebrow"><span class="small-dot"></span>Seoul, Republic of Korea</span><div><div class="school-mark">University<br/>of <em>Seoul.</em></div><p>School of Advanced Fusion Studies<br/>Natural Science Building · Room 305</p><a class="button" href={`mailto:${site.email}?subject=Inquiry%20about%20MCAS%20Lab`}>Contact the lab <span aria-hidden="true">↗</span></a></div></div></div></section>
+</Layout>

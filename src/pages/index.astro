@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Chip from '../components/Chip.astro';
+import Paper from '../components/Paper.astro';
+import site from '../data/site.json';
+import research from '../data/research.json';
+import publications from '../data/publications.json';
+import news from '../data/news.json';
+import gallery from '../data/gallery.json';
+const featured=site.featuredPaperIds.map(id=>publications.find(p=>p.id===id)).filter(Boolean);
+const moments=site.homeAlbumIds.map(id=>gallery.find(g=>g.id===id)).filter(Boolean);
+---
+<Layout dark>
+  <section class="hero">
+    <div class="container hero-main">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="small-dot"></span>University of Seoul · MCAS Lab</span>
+        <h1>{site.heroLine1}<br/><em>{site.heroAccent}</em><br/>{site.heroLine3}</h1>
+        <p class="hero-ko" lang="ko">{site.heroKo}</p>
+        <p class="hero-description">Mixed-signal Circuits and Systems Laboratory.<br/>From high-speed data conversion to low-power sensing.</p>
+        <div class="button-row"><a class="button" href="./research/">Explore our research <span aria-hidden="true">↗</span></a><a class="button button-outline" href="./people/">Meet the people <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div class="chip-stage" aria-label="A composition of real chip micrographs from MCAS research">
+        <div class="stage-orbit" aria-hidden="true"></div><span class="stage-cross" aria-hidden="true">+</span>
+        <div class="chip-tile chip-tile-a"><Chip variant="sar" /></div><div class="chip-tile chip-tile-b"><Chip variant="memory" /></div><div class="chip-tile chip-tile-c"><Chip variant="sensor" /></div>
+        <span class="stage-coordinate" aria-hidden="true">ANALOG IN / DIGITAL OUT</span><span class="stage-label">CHIP MICROGRAPHS / MCAS RESEARCH</span>
+      </div>
+    </div>
+    <div class="container hero-bottom"><span>Mixed-signal circuits & systems</span><span><span class="hide-mobile">Seoul, Republic of Korea</span><a href="#research">Discover MCAS ↓</a></span></div>
+  </section>
+  <section class="section" id="research"><div class="container intro-grid"><div><span class="eyebrow"><span class="small-dot"></span>01 / Research directions</span><h2>Circuits with<br/>real-world impact.</h2></div><div><p>{site.description}</p><a class="text-link" href="./research/">Our research <span aria-hidden="true">↗</span></a></div></div></section>
+  <section class="section research-section"><div class="container research-layout">
+    <div class="research-list">{research.map((r,i)=><details class="research-item" open={i===0}><summary><span class="item-no">{String(i+1).padStart(2,'0')}</span><h3>{r.title}</h3><span aria-hidden="true">+</span></summary><p>{r.description}</p><div class="detail-tag"><a href={`./research/#${r.id}`}>{r.tag} ↗</a></div></details>)}</div>
+    <figure class="research-figure"><span class="eyebrow">From ideas to silicon</span><Chip variant="touch" /><figcaption class="figure-label"><span>MCAS CHIP PHOTOGRAPHS</span><span>FIG. 01 ↗</span></figcaption></figure>
+  </div></section>
+  <section class="section papers-section"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="small-dot"></span>02 / Selected publications</span><h2>Research in focus.</h2></div><a class="text-link" href="./publications/">All publications <span aria-hidden="true">↗</span></a></div>{featured.map((paper,index)=><Paper paper={paper} index={index} featured />)}</div></section>
+  <section class="census-band"><div class="container census-grid"><div class="census-mark">ADC<span> Census.</span></div><div class="census-copy"><span class="eyebrow">An open research resource</span><p>Explore data-converter literature, compare reported performance, and discover the work behind the numbers.</p><a class="text-link" href={site.census}>Explore ADC Census <span aria-hidden="true">↗</span></a></div></div></section>
+  <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="small-dot"></span>03 / Life at MCAS</span><h2>Built by curious minds.</h2></div><a class="text-link" href="./gallery/">Inside the lab <span aria-hidden="true">↗</span></a></div><div class="life-grid">{moments.map(m=><a class="life-card" href={`./gallery/#${m.id}`}><div class="image-wrap"><img src={`./${m.images[0]}`} alt={m.title} loading="lazy" width="800" height="600" /></div><h3 lang="ko">{m.title}</h3><span>VIEW MOMENTS ↗</span></a>)}</div></div></section>
+  <section class="section news-section"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="small-dot"></span>04 / Latest updates</span><h2>What’s happening.</h2></div><a class="text-link" href="./news/">All news <span aria-hidden="true">↗</span></a></div>{news.slice(0,4).map(n=><article class="news-row"><time class="news-date" datetime={n.date}>{n.date.replace('-',' / ')}</time><span class="news-type">{n.category}</span><h3>{n.text}</h3></article>)}</div></section>
+  <section class="join-section"><div class="container join-grid"><div><span class="eyebrow"><span class="small-dot"></span>Open to curious minds</span><h2>Your next idea starts here.</h2><p lang="ko">혼성신호 회로 및 시스템 분야에 관심 있는 대학원생을 모집합니다.<br/>함께 연구하고 싶은 분들의 연락을 기다립니다.</p></div><a class="button" href="./contact/">Join MCAS Lab <span aria-hidden="true">↗</span></a></div></section>
+</Layout>

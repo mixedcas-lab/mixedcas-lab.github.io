@@ -1,0 +1,15 @@
+---
+import { relativeRoot } from '../lib/paths';
+export function getStaticPaths(){
+  return [
+    ['home',''],
+    ['member/professor','people/#professor'],
+    ['member/student','people/#students'],
+    ['publications/journal-conference','publications/'],
+    ['publications/patent','publications/#patents'],
+    ['lecture','teaching/'],
+  ].map(([legacy,target])=>({params:{legacy},props:{target}}));
+}
+const destination=relativeRoot(Astro.url.pathname)+Astro.props.target;
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="refresh" content={`0;url=${destination}`}/><title>MCAS Lab — Page moved</title></head><body><p>This page has moved. <a href={destination}>Continue to MCAS Lab.</a></p></body></html>

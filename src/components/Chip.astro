@@ -1,0 +1,5 @@
+---
+const { root='./', variant='sar', class: className='' }=Astro.props;
+const views:Record<string,string>={sar:'679 362 254 154',sensor:'338 183 146 155',memory:'512 9 140 142',touch:'683 8 245 142'};
+---
+<svg class={`chip-image ${className}`} viewBox={views[variant]||views.sar} role="img" aria-label="Chip micrograph from the MCAS research page"><image href={`${root}images/chips.png`} width="1280" height="545" /></svg>

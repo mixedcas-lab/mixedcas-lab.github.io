@@ -1,0 +1,297 @@
+Home
+Search this site
+Embedded Files
+Skip to main content
+Skip to navigation
+UNIVERSITY OF SEOUL · SCHOOL OF ADVANCED FUSION STUDIES
+Mixed-signal Circuits and Systems Laboratory
+혼성신호 회로 및 시스템 연구실
+We design mixed-signal integrated circuits and systems, from high-speed data converters for wireline and wireless links to low-noise readout for biomedical, image-sensor and memory applications.
+Notice
+본 연구실에서 차세대 혼성 신호 회로 및 시스템 분야에 관심 있는 대학원생을 상시 모집합니다.
+관심이 있거나 상담이 필요한 학생은 이메일 주시기 바랍니다. (
+mjseo@uos.ac.kr
+)
+We are looking for highly motivated M.S./Ph.D. students who have interests in the mixed-signal integrated circuits and systems.
+Latest News in MCAS Lab.
+2026/0
+9
+|
+장인호
+학생 "
+IEEE Seoul Section 우수논문상
+" 수상 (RF/아날로그 회로 워크샵)
+2026/0
+7
+|
+MCAS Lab has secured funding for the research project "
+차량용 고신뢰 고속 인터페이스 IP 기술 개발
+" 과학기술정보통신부 (202
+6
+.07 ~ 20
+30
+.12).
+2026/07  |
+U. Lee, J. Kim, J. Park
+have joined the MCAS Lab. as undergraduate researcher. Welcome!
+202
+6
+/
+06
+|
+Professor Min-Jae Seo receives the 2026 IEIE-IEEE Joint Award for Young  Scientist and Engineer.
+2026/0
+4
+|
+MCAS Lab has secured funding for the research project "
+200+Gbps급 차세대 초고속 인터페이스 반도체 설계기술
+" 산업통상부 (2026.0
+4
+~ 203
+0
+.
+1
+2).
+2026/03  |
+Professor Min-Jae Seo has been promoted to Associate Professor at the University of Seoul.
+2026/0
+3
+|
+MCAS Lab has secured funding for the research project "
+산업혁신인재성장지원(교육훈련)사업
+"
+산업통상부
+(2026.0
+3
+~ 20
+31.02
+).
+2026/0
+2
+|
+J. Seo has completed her M.S. studies at the MCAS Lab. Congratulations on her graduation!
+2025/
+10
+|
+서지원 학생,
+강희준 학생, 이재윤 학생
+"
+전자공학회 학회장상(우수상)
+"
+수상 (WISET 여대학원생 결과발표대회)
+.
+202
+5
+/0
+3
+|
+서지원
+학생 "
+2025년 여대학원생 공학연구팀제 지원사업(심화과정)
+"
+선정
+.
+202
+5
+/0
+1
+|
+H. K
+im
+ha
+s
+joined the MCAS Lab. as undergraduate researcher. Welcome!
+202
+5
+/
+01
+|
+최민철 학생,
+김승현 학생, 김찬솔 학생 "
+2024 AI 반도체 아이디어/설계 경진대회 최우수상" 수상 (과학기술정보통신부)
+2024/
+11
+|
+Ji-won Seo, Hyeon-woo Kim, and Min-cheol Choi's paper for ICEIC 2025 have been accepted.
+2024/09  |
+김현우 학생 "기업특별상(하이딥)" 수상 (RF/아날로그 회로 워크샵).
+202
+4
+/09  |
+이승준
+학생,
+최민철 학생, 강희준 학생
+"
+RF 집적회로연구회 학술위원장상(우수논문상)
+" 수상 (RF/아날로그 회로 워크샵)
+2024/09  |
+이승준 학생, 최민철 학생, 강희준 학생 "
+2024 Korea Student Semiconductor IC Design Contest 동상" 수상 (반도체공학회)
+.
+2024/07
+|
+H
+.
+Kang
+,
+J
+.
+Lee , C. Kim and S. Kim
+have joined the MCAS Lab. as undergraduate researcher. Welcome!
+2024/06
+|
+S. Lee , M
+.
+Choi and J. Hyeon
+h
+ave
+joined the MCAS Lab. as undergraduate researcher. Welcome!
+2024/03  |
+Min-Jae Seo joined the University of Seoul, and MCAS Lab. has moved to UOS.
+2024/0
+2
+|
+Jiyoon
+and Hyeonwoo,
+Congratulations
+Graduates!
+202
+4
+/0
+1
+|
+S. Jo presented their paper titled 'Hardware-efficient Rate Encoding Hardware with Latch-based TRNG' at International Conference on Electronics, Information, and Communication (ICEIC).
+2023/0
+9
+|
+조선아 학생 "IEEE Solid-State Circuit Society(SSCS) Best Paper Award" 수상 (RF/아날로그 회로 워크샵).
+2023/09  |
+J. Sim presented their paper titled 'Implementation of a RISC-V based Hardware Accelerator for Time-interleaving ADC Mismatch Calibration' at 23rd RF/Analog Circuit Workshop.
+2023/09  |
+S. Jo presented their paper titled 'Analysis of Data Encoding Schemes for Spiking Neural Networks (SNNs)  with a FPGA Implementation' at 23rd RF/Analog Circuit Workshop.
+2023/0
+7
+|
+H
+.
+K
+im has joined the MCAS Lab. as undergraduate researcher. Welcome!
+2023/05  |
+Professor Min-Jae Seo serves as a member of the Technical Program Committee for ASSCC (
+Link
+).
+202
+3
+/0
+5
+|
+J.
+Sim
+ha
+s
+joined the MCAS Lab. as undergraduate researcher. Welcome!
+202
+2
+/
+1
+2  |
+서지원 학생 "IEEE Circuits and Systems Society (CASS) 우수논문상" 수상 (반도체공학회 종합학술대회).
+2022/12  |
+S. Jo presented their paper titled '디지털 제어를 포함하는 아날로그 뉴런 회로' at 반도체공학회 종합학술대회.
+2022/12  |
+J. Seo presented their paper titled 'SNN을 위한 저면적/고효율 시간 영역 아날로그-디지털 변환기 설계 연구' at 반도체공학회 종합학술대회.
+202
+2
+/
+10
+|
+J. Seo presented their paper titled 'A Time-domain Compact Analog-to-Digital Converter for SRAM Computing-in-Memory' at 2022 IEEE/IEIE ICCE-Asia.
+2022/
+10
+|
+Min-Jae Seo was awarded the "2022 Excellent Young Researcher in Integrated Circuit Design" by IC Design Education Center (IDEC).
+2022/0
+8
+|
+MCAS Lab has secured funding for the research project "
+고속 유무선 통신 시스템을 위한 합성 가능 아날로그-디지털 변환기 IP 개발
+" NRF (2022.0
+9
+~ 202
+5
+.
+02
+).
+2022/0
+6
+|
+M
+CAS
+Lab has secured funding for the research project "
+뉴로 칩 설계 기술 및 뉴로 컴퓨팅 플랫폼 연구개발
+"
+IITP
+(2022.0
+7 ~ 2029.12
+).
+2022/0
+6
+|
+J
+.
+Seo and S. Jo
+ha
+ve
+joined the M
+CAS
+Lab. as undergraduate researcher. Welcome!
+2022/05  |
+T. Hwang has joined the MCAS Lab. as undergraduate researcher.
+Welcome!
+2022/0
+5
+|
+MCAS Lab has
+secured funding for
+the research project "
+초광대역 ADC IP 개발
+"
+Gachon Univ.
+(2022.0
+5
+~ 202
+3
+.
+04
+).
+2022/0
+4
+|
+MCAS Lab has secured funding
+for
+the research project
+"64-레벨 초고용량 낸드 플래시 메모리 개발을 위한 소자 및 설계 핵심 요소기술 개발" KEIT (2022.04 ~ 2024.12)
+.
+2022/03  |
+T
+he joint research paper with KAIST "A 7-bit Two-Step Flash ADC With Sample-and-Hold Sharing Technique" has been accepted to
+IEEE Journal of Solid-State
+Circuits (JSSC).
+2022/0
+2
+|
+Min-Jae Seo
+joined Gachon University
+and
+MCAS Laboratory begins!
+Call
+Tel: +82-2-6490-2145
+E-mail
+mjseo@uos.ac.kr
+Location
+Room #305, Natural Science Bld.
+Contact us
+Google Sites
+Report abuse
+Google Sites
+Report abuse

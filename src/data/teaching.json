@@ -1,0 +1,58 @@
+[
+  {
+    "term": "2024 Fall Semester",
+    "courses": [
+      "전자회로II",
+      "혼성신호집적회로 II"
+    ]
+  },
+  {
+    "term": "2024 Spring Semester",
+    "courses": [
+      "혼성신호집적회로 I",
+      "C Programming"
+    ]
+  },
+  {
+    "term": "2023 Fall Semester",
+    "courses": [
+      "VLSI시스템설계",
+      "디지털시스템설계",
+      "혼성신호집적회로설계"
+    ]
+  },
+  {
+    "term": "2023 Spring Semester",
+    "courses": [
+      "Analog Integrated Circuits Design",
+      "Digital Integrated Circuits Design",
+      "Digital Engineering"
+    ]
+  },
+  {
+    "term": "2023 Winter",
+    "courses": [
+      "Data-Converter 설계 이론 및 실습 (IDEC)"
+    ]
+  },
+  {
+    "term": "2022 Fall Semester",
+    "courses": [
+      "Digital IC System Design",
+      "Digital System Design and CAD",
+      "Data-Converter 설계 이론 및 실습 (IDEC)"
+    ]
+  },
+  {
+    "term": "2022 Summer",
+    "courses": [
+      "\"고속 데이터변환기(ADC/DAC) 설계 및 설계 자동화 동향\" @ AISRC"
+    ]
+  },
+  {
+    "term": "2022 Spring Semester",
+    "courses": [
+      "VLSI System Design"
+    ]
+  }
+]

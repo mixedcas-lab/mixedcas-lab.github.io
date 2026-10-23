@@ -1,0 +1,35 @@
+{
+  "name": "MCAS Lab",
+  "logos": {
+    "dark": "images/brand/mcas-white.png",
+    "light": "images/brand/mcas-navy.png"
+  },
+  "fullName": "Mixed-signal Circuits and Systems Laboratory",
+  "nameKo": "혼성신호 회로 및 시스템 연구실",
+  "university": "University of Seoul",
+  "school": "School of Advanced Fusion Studies",
+  "description": "We design mixed-signal integrated circuits and systems, from high-speed data converters for wireline and wireless links to low-noise readout for biomedical, image-sensor and memory applications.",
+  "email": "mjseo@uos.ac.kr",
+  "phone": "+82-2-6490-2145",
+  "phoneLabel": "Professor’s office",
+  "address": "Room 305, Natural Science Building, 163 Seoulsiripdae-ro, Dongdaemun-gu, Seoul, Republic of Korea",
+  "census": "https://mixedcas-lab.github.io/adc-census/",
+  "source": "https://mcas.uos.ac.kr",
+  "snapshotDate": "2026-10-23",
+  "heroKo": "아날로그와 디지털을 잇는 회로를 설계합니다.",
+  "recruiting": "본 연구실에서 차세대 혼성 신호 회로 및 시스템 분야에 관심 있는 대학원생을 상시 모집합니다. 관심이 있거나 상담이 필요한 학생은 이메일 주시기 바랍니다.",
+  "contactPagePhone": "+82-2-6490-5561",
+  "heroLine1": "Analog worlds.",
+  "heroAccent": "Digital",
+  "heroLine3": "possibilities.",
+  "featuredPaperIds": [
+    "j-01",
+    "j-06",
+    "j-14"
+  ],
+  "homeAlbumIds": [
+    "album-8",
+    "album-1",
+    "album-17"
+  ]
+}
