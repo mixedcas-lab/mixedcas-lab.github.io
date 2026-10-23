@@ -42,7 +42,7 @@ const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') 
     <main id="main"><slot /></main>
     <footer class="site-footer">
       <div class="container footer-top">
-        <div><a class="footer-logo" href={root} aria-label="MCAS Lab home"><img src={`${root}${site.logos.dark}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" loading="lazy" /></a><p>{site.fullName}</p></div>
+        <div><a class="footer-logo" href={root} aria-label="MCAS Lab home"><img src={`${root}${site.logos.dark}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" loading="lazy" /></a><p>{site.fullName}</p><a class="footer-uos" href="https://www.uos.ac.kr" target="_blank" rel="noopener"><img src={`${root}images/brand/uos-white.png`} alt="University of Seoul" width="900" height="97" loading="lazy" /></a></div>
         <div><span class="eyebrow">University of Seoul</span><p>School of Advanced Fusion Studies<br/>Natural Science Building · Room 305</p><a href={`mailto:${site.email}`}>{site.email} ↗</a></div>
         <div class="footer-links"><a href={`${root}teaching/`}>Teaching</a><a href={`${root}publications/#patents`}>Patents</a><a href={`${root}contact/`}>Contact</a></div>
       </div>
