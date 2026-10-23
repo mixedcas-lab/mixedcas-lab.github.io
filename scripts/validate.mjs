@@ -35,7 +35,7 @@ site.homeAlbumIds.forEach(id=>assert(gallery.some(g=>g.id===id),`Unknown home al
 for(const [name,items,key] of [['papers',papers,'id'],['members',members,'name'],['gallery',gallery,'id']])assert(new Set(items.map(i=>i[key])).size===items.length,`Duplicate ${name} keys`);
 papers.forEach(p=>{assert(p.title&&p.citation&&p.details,'Incomplete publication');assert(['Published','Accepted','In review','In preparation'].includes(p.status),'Unknown publication status');assert(['Journal','Conference'].includes(p.kind),'Unknown publication kind');});
 news.forEach(n=>assert(/^\d{4}-\d{2}$/.test(n.date)&&n.text,'Invalid news item'));
-for(const image of [...members.map(m=>m.image).filter(Boolean),read('professor').image,...gallery.flatMap(g=>g.images),'images/chips.png','images/chip-tisar-28nm-die.jpg']){
+for(const image of [...members.map(m=>m.image).filter(Boolean),read('professor').image,...gallery.flatMap(g=>g.images),'images/chips.png','images/chip-tisar-28nm-die.jpg','images/chip-sati-sar.jpg','images/chip-ct-dsm.jpg']){
   const file=path.join(dist,image);assert(fs.existsSync(file),`Missing image ${image}`);
   const bytes=fs.readFileSync(file);
   assert(bytes.length>100&& !bytes.subarray(0,100).toString().includes('<html'),`Invalid image ${image}`);
