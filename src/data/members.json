@@ -19,7 +19,7 @@
   {
     "name": "Inho Jang",
     "email": "inho1638@uos.ac.kr",
-    "research": "High-resolution analog-to-digital converters",
+    "research": "High-resolution data converters",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-3.png",
@@ -37,7 +37,7 @@
   {
     "name": "Hyeongjun Kim",
     "email": "kpoo917@uos.ac.kr",
-    "research": "Wireline transceivers (SerDes)",
+    "research": "Data converters for wireline transceivers (SerDes)",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-5.jpg",
@@ -55,7 +55,7 @@
   {
     "name": "Uhnsuk Lee",
     "email": "uhnsuk15@uos.ac.kr",
-    "research": "Wireline transceivers (SerDes)",
+    "research": "Data converters for wireline transceivers (SerDes)",
     "role": "Undergraduate researcher",
     "program": "B.S.–M.S. integrated program, University of Seoul",
     "image": "images/member-7.jpg",
@@ -65,7 +65,7 @@
   {
     "name": "Junseong Kim",
     "email": "kjack0219@uos.ac.kr",
-    "research": "High-resolution analog-to-digital converters",
+    "research": "High-resolution data converters",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-8.png",
@@ -74,7 +74,7 @@
   {
     "name": "Junho Park",
     "email": "wnsqh4599@naver.com",
-    "research": "Wireline transceivers (SerDes)",
+    "research": "Data converters for wireline transceivers (SerDes)",
     "role": "Graduate researcher",
     "program": "M.S., Department of Intelligent Semiconductor Engineering, University of Seoul",
     "image": "images/member-9.jpg",
@@ -91,6 +91,7 @@
   {
     "name": "Bubin Kim",
     "role": "Part-time M.S. student",
-    "affiliation": "ABOV Semiconductor"
+    "affiliation": "ABOV Semiconductor",
+    "research": "Data converters"
   }
 ]
