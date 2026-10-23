@@ -34,7 +34,7 @@ const canonical = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/,'') 
         <a class="brand" href={root} aria-label="MCAS Lab home"><img class="brand-logo" src={`${root}${dark ? site.logos.dark : site.logos.light}`} alt="MCAS Lab — Mixed-Signal Circuits and Systems" width="3508" height="610" /></a>
         <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false"><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
         <nav id="primary-nav" aria-label="Main navigation">
-          {nav.map(([label,path])=><a href={`${root}${path}/`} aria-current={current===path?'page':undefined}>{label}</a>)}
+          {nav.map(([label,path])=>path==='people'?<div class="nav-group"><a href={`${root}people/`} aria-current={current===path?'page':undefined} aria-haspopup="true">{label}<span class="nav-caret" aria-hidden="true">▾</span></a><div class="nav-sub"><a href={`${root}people/`}>Principal Investigator</a><a href={`${root}people/members/`}>Members</a></div></div>:<a href={`${root}${path}/`} aria-current={current===path?'page':undefined}>{label}</a>)}
           <a class="nav-contact" href={`${root}contact/`}>Contact <span aria-hidden="true">→</span></a>
         </nav>
       </div>
