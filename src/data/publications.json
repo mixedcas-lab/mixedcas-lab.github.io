@@ -378,5 +378,27 @@
     "venue": "DAC",
     "citation": "\"Design Automation for NAND Flash Memory Circuits\", In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to the Design Automation Conference (DAC). Supported by SK hynix.",
     "source": "lab"
+  },
+  {
+    "id": "prep-04",
+    "title": "Multi-Channel ADC for Physical AI",
+    "details": "To be submitted to IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II). Supported by ABOV Semiconductor.",
+    "year": null,
+    "kind": "Journal",
+    "status": "In preparation",
+    "venue": "TCAS-II",
+    "citation": "\"Multi-Channel ADC for Physical AI\", To be submitted to IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II). Supported by ABOV Semiconductor.",
+    "source": "lab"
+  },
+  {
+    "id": "prep-05",
+    "title": "Uplink ADC for Software-Defined Vehicles",
+    "details": "To be submitted to a conference. Supported by the National Research Foundation of Korea (NRF).",
+    "year": null,
+    "kind": "Conference",
+    "status": "In preparation",
+    "venue": null,
+    "citation": "\"Uplink ADC for Software-Defined Vehicles\", To be submitted to a conference. Supported by the National Research Foundation of Korea (NRF).",
+    "source": "lab"
   }
 ]
