@@ -26,12 +26,12 @@
   {
     "id": "j-03",
     "title": "6-bit 28GS/s High Speed DAC",
-    "citation": "\"6-bit 28GS/s High Speed DAC\", M.-J. Seo* et al., to be submitted to IEEE Trans. Circuits Syst. I, Reg. Papers.",
-    "details": "M.-J. Seo* et al., to be submitted to IEEE Trans. Circuits Syst. I, Reg. Papers.",
+    "citation": "\"6-bit 28GS/s High Speed DAC\", M.-J. Seo* et al., to be submitted to IEEE Transactions on Instrumentation and Measurement (TIM).",
+    "details": "M.-J. Seo* et al., to be submitted to IEEE Transactions on Instrumentation and Measurement (TIM).",
     "year": null,
     "kind": "Journal",
     "status": "In preparation",
-    "venue": "TCAS-I",
+    "venue": "TIM",
     "source": "https://mcas.uos.ac.kr/publications/journal-conference"
   },
   {
@@ -356,5 +356,27 @@
     "venue": "ESSCIRC",
     "source": "https://mcas.uos.ac.kr/publications/journal-conference",
     "url": "https://doi.org/10.1109/esscirc.2015.7313892"
+  },
+  {
+    "id": "prep-02",
+    "title": "NAND Flash Memory Circuit Design",
+    "details": "In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to Advanced Science.",
+    "year": null,
+    "kind": "Journal",
+    "status": "In preparation",
+    "venue": "Advanced Science",
+    "citation": "\"NAND Flash Memory Circuit Design\", In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to Advanced Science.",
+    "source": "lab"
+  },
+  {
+    "id": "prep-03",
+    "title": "Design Automation for NAND Flash Memory Circuits",
+    "details": "In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to the Design Automation Conference (DAC). Supported by SK hynix.",
+    "year": null,
+    "kind": "Conference",
+    "status": "In preparation",
+    "venue": "DAC",
+    "citation": "\"Design Automation for NAND Flash Memory Circuits\", In collaboration with Prof. Byung-Chul Jang (Kyungpook National University); to be submitted to the Design Automation Conference (DAC). Supported by SK hynix.",
+    "source": "lab"
   }
 ]
