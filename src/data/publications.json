@@ -14,13 +14,14 @@
   {
     "id": "j-02",
     "title": "GRID: A Graph RL and gm/ID-Based Framework for Fast and Transferable Analog Circuit Optimization",
-    "citation": "\"GRID: A Graph RL and gm/ID-Based Framework for Fast and Transferable Analog Circuit Optimization\", Jiwon Seo, Jaeyoon Lee, Heejun Kang, and Min-Jae Seo*, Journal of Semiconductor Technology and Science(JSTS), 2026.",
-    "details": "Jiwon Seo, Jaeyoon Lee, Heejun Kang, and Min-Jae Seo*, Journal of Semiconductor Technology and Science(JSTS), 2026.",
+    "citation": "\"GRID: A Graph RL and gm/ID-Based Framework for Fast and Transferable Analog Circuit Optimization\", Jiwon Seo, Jaeyoon Lee, Heejun Kang, and Min-Jae Seo*, Journal of Semiconductor Technology and Science (JSTS), vol. 26, no. 6, Dec. 2026 (early access).",
+    "details": "Jiwon Seo, Jaeyoon Lee, Heejun Kang, and Min-Jae Seo*, Journal of Semiconductor Technology and Science (JSTS), vol. 26, no. 6, Dec. 2026 (early access).",
     "year": 2026,
     "kind": "Journal",
-    "status": "Published",
+    "status": "Accepted",
     "venue": "JSTS",
-    "source": "https://mcas.uos.ac.kr/publications/journal-conference"
+    "source": "https://mcas.uos.ac.kr/publications/journal-conference",
+    "pendingDoi": "10.5573/JSTS.2026.26.6.458"
   },
   {
     "id": "j-03",
