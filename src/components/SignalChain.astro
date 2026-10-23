@@ -52,9 +52,9 @@ const [bx0, bx1] = L.bits;
   </defs>
 
   <g class="sc-labels">
-    <text x={L.inX[0]} y={L.labelY}>ANALOG IN</text>
+    <text x={(L.inX[0] + L.inX[1]) / 2} y={L.labelY} text-anchor="middle">ANALOG IN</text>
     <text x={(bx0 + bx1) / 2} y={L.labelY} text-anchor="middle">DIGITAL</text>
-    <text x={L.outX[1]} y={L.labelY} text-anchor="end">ANALOG OUT</text>
+    <text x={(L.outX[0] + L.outX[1]) / 2} y={L.labelY} text-anchor="middle">ANALOG OUT</text>
   </g>
   <line class="sc-axis" x1={L.inX[0]} y1={mid} x2={L.inX[1]} y2={mid} />
   <line class="sc-axis" x1={L.outX[0]} y1={mid} x2={L.outX[1]} y2={mid} />
