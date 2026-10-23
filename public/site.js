@@ -34,7 +34,7 @@ function setupFilters({formId,itemSelector,searchId,yearId,kindId,countId,emptyI
   form.addEventListener('submit',e=>{e.preventDefault();update();});
   search.addEventListener('input',()=>update());year.addEventListener('change',()=>update());kind?.addEventListener('change',()=>update());update(false);
 }
-setupFilters({formId:'paper-filters',itemSelector:'[data-paper]',searchId:'paper-search',yearId:'paper-year',kindId:'paper-kind',countId:'paper-count',emptyId:'paper-empty',noun:'publications & manuscripts'});
+setupFilters({formId:'paper-filters',itemSelector:'[data-paper]',searchId:'paper-search',yearId:'paper-year',kindId:'paper-kind',countId:'paper-count',emptyId:'paper-empty',noun:'publications'});
 setupFilters({formId:'news-filters',itemSelector:'[data-news]',searchId:'news-search',yearId:'news-year',countId:'news-count',emptyId:'news-empty',noun:'updates'});
 
 const galleryData=document.getElementById('gallery-data');
